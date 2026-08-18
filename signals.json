@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-18T20:33:39.225674+00:00",
+  "generated_at": "2026-08-18T21:32:05.468512+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -424,17 +424,17 @@
     "asof": "2026-08-18T00:00:00"
   },
   "pressure": {
-    "value": -0.41,
+    "value": -0.406,
     "level": "NORMAL",
     "emoji": "🟢",
-    "percentile": 25.2,
-    "change_1d": -0.146,
-    "change_5d": -0.296,
+    "percentile": 25.5,
+    "change_1d": -0.142,
+    "change_5d": -0.292,
     "components": [
       {
         "label": "Gasoline futures",
-        "change": -11.062,
-        "z": -1.029,
+        "change": -11.059,
+        "z": -1.028,
         "units": "%"
       },
       {
@@ -457,8 +457,8 @@
       },
       {
         "label": "WTI crude",
-        "change": 1.213,
-        "z": 0.03,
+        "change": 1.43,
+        "z": 0.049,
         "units": "%"
       }
     ],
@@ -491,44 +491,44 @@
     "earnings": [],
     "headlines": [
       {
-        "when": "18 Aug 22:25",
-        "source": "GuruFocus.com",
-        "title": "Nvidia Stock Drops as Bond Yields Attack AI Valuations"
+        "when": "18 Aug 23:07",
+        "source": "Investor's Business Daily",
+        "title": "Dow Jones Futures: Sandisk, Micron, Credo Lead AI Rug Pull; Target Earnings Due"
       },
       {
-        "when": "18 Aug 22:25",
+        "when": "18 Aug 23:04",
         "source": "Motley Fool",
-        "title": "Where Will the Vanguard S&P 500 ETF Be in 20 Years? History Has Good and Bad News for Investors."
+        "title": "Sprott Gold Miners ETF vs Global X Silver Miners ETF: Which Is the Best Fund to Profit from the Historic Metals Bull Run?"
       },
       {
-        "when": "18 Aug 22:24",
-        "source": "AFP",
-        "title": "Stocks mostly drop as Mideast hopes dim, interest rates rise"
+        "when": "18 Aug 22:59",
+        "source": "MT Newswires",
+        "title": "Update: Technology Leads US Equity Indexes Lower as 30-Year Yield Touches 19-Year High, Crude Oil Extends Gains"
       },
       {
-        "when": "18 Aug 22:01",
+        "when": "18 Aug 22:48",
         "source": "Reuters",
         "title": "Tech selloff weighs down Wall Street as bond yields climb"
       },
       {
-        "when": "18 Aug 22:00",
-        "source": "GuruFocus.com",
-        "title": "Exxon Stock Surges 2.3% as Oil Breaks Above $91"
+        "when": "18 Aug 22:46",
+        "source": "The Wall Street Journal",
+        "title": "U.S. Tech Stocks Slip as Bond Yields Hit Decade Highs; Iran Truce Expires"
       },
       {
-        "when": "18 Aug 21:52",
-        "source": "MT Newswires",
-        "title": "Update: US Equity Indexes Fall as 30-Year Yield Hits 19-Year High, Crude Oil Advances"
-      },
-      {
-        "when": "18 Aug 21:27",
+        "when": "18 Aug 22:42",
         "source": "Reuters",
-        "title": "Oil closes at three-week high as hopes of US-Iran peace deal fade"
+        "title": "Nasdaq slides, yields elevated as Mideast conflict fears grow"
       },
       {
-        "when": "18 Aug 21:25",
+        "when": "18 Aug 22:33",
         "source": "Investor's Business Daily",
-        "title": "Stock Market Today: Nasdaq Hit Hard By Chip Names; Sandisk, Micron Slide As Biotech Soars (Live Coverage)"
+        "title": "Stock Market Today: Nasdaq Slides Along With Chip Names; Sandisk, Micron Lose Big"
+      },
+      {
+        "when": "18 Aug 21:24",
+        "source": "GuruFocus.com",
+        "title": "Bank of America Says $5,000 Gold Is Within Reach"
       }
     ],
     "anomalies": [
