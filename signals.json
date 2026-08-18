@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-18T19:04:18.953013+00:00",
+  "generated_at": "2026-08-18T19:20:17.436295+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -95,8 +95,8 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7716.0,
-      "pct_change": -0.1294,
+      "close": 7717.0,
+      "pct_change": 0.013,
       "direction": "SELL",
       "score": 5,
       "total": 9,
@@ -104,7 +104,7 @@
       "sell_count": 5,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T19:00:00+02:00",
+      "bar_time": "2026-08-18T20:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -223,8 +223,8 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29565.75,
-      "pct_change": -0.2833,
+      "close": 29571.25,
+      "pct_change": 0.0186,
       "direction": "SELL",
       "score": 6,
       "total": 9,
@@ -232,7 +232,7 @@
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T19:00:00+02:00",
+      "bar_time": "2026-08-18T20:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -287,16 +287,16 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.05,
-      "pct_change": -0.19,
-      "direction": "FLAT",
-      "score": 0,
+      "close": 84.08,
+      "pct_change": 0.0357,
+      "direction": "BUY",
+      "score": 3,
       "total": 9,
       "buy_count": 3,
-      "sell_count": 3,
-      "tier": null,
-      "tier_emoji": null,
-      "bar_time": "2026-08-18T19:00:00+02:00",
+      "sell_count": 2,
+      "tier": "WEAK",
+      "tier_emoji": "🟡",
+      "bar_time": "2026-08-18T20:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -342,7 +342,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": -1
+          "vote": 0
         }
       ]
     },
@@ -351,16 +351,16 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4413.2002,
-      "pct_change": -0.1312,
+      "close": 4409.3999,
+      "pct_change": -0.0861,
       "direction": "SELL",
       "score": 6,
       "total": 9,
-      "buy_count": 1,
+      "buy_count": 2,
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T19:00:00+02:00",
+      "bar_time": "2026-08-18T20:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -376,7 +376,7 @@
         {
           "key": "rsi_bars",
           "label": "RSI bars (OB/OS)",
-          "vote": 0
+          "vote": 1
         },
         {
           "key": "squeeze_momentum",
@@ -424,38 +424,45 @@
     "asof": "2026-08-18T00:00:00"
   },
   "pressure": {
-    "value": -0.428,
+    "value": -0.367,
     "level": "NORMAL",
     "emoji": "🟢",
-    "percentile": 27.4,
-    "change_1d": 0.032,
-    "change_5d": -0.276,
+    "percentile": 29.4,
+    "change_1d": -0.212,
+    "change_5d": -0.284,
     "components": [
+      {
+        "label": "Gasoline futures",
+        "change": -11.045,
+        "z": -1.027,
+        "units": "%"
+      },
       {
         "label": "VIX",
         "change": -15.979,
-        "z": -0.749,
+        "z": -0.748,
         "units": "%"
       },
       {
         "label": "S&P 500",
-        "change": 3.421,
-        "z": -0.549,
+        "change": 3.413,
+        "z": -0.548,
         "units": "%"
       },
       {
+        "label": "10y Treasury yield",
+        "change": 0.108,
+        "z": 0.465,
+        "units": "pp"
+      },
+      {
         "label": "WTI crude",
-        "change": 1.057,
-        "z": 0.015,
+        "change": 1.129,
+        "z": 0.022,
         "units": "%"
       }
     ],
-    "missing": [
-      "10y Treasury yield",
-      "30y mortgage rate",
-      "Retail gasoline",
-      "Inflation breakeven"
-    ]
+    "missing": []
   },
   "events": {
     "macro": [
@@ -484,6 +491,11 @@
     "earnings": [],
     "headlines": [
       {
+        "when": "18 Aug 21:07",
+        "source": "The Wall Street Journal",
+        "title": "Oil Posts Modest Gains With Strait of Hormuz Situation Unclear"
+      },
+      {
         "when": "18 Aug 21:04",
         "source": "Motley Fool",
         "title": "Meet the Dividend King Stock That Yields More Than Quadruple the S&P 500. Here's Why It's a Buy in August."
@@ -499,6 +511,11 @@
         "title": "Tech selloff pulls Wall Street to two-week lows as bond yields climb"
       },
       {
+        "when": "18 Aug 20:51",
+        "source": "The Wall Street Journal",
+        "title": "Precious Metals Drop Amid Bond Selloff"
+      },
+      {
         "when": "18 Aug 20:03",
         "source": "MT Newswires",
         "title": "Update: Equities Fall, Oil Rises as Trump Says US Not in Talks With Iran"
@@ -512,16 +529,6 @@
         "when": "18 Aug 18:00",
         "source": "Yahoo Finance Video",
         "title": "Gold can be a great inflation hedge, but sometimes it's not: AlphaSpace breakdown"
-      },
-      {
-        "when": "18 Aug 18:00",
-        "source": "Proactive",
-        "title": "Domestic Metals CEO Gordon Neal brings a billion-dollar track record to Smart Creek"
-      },
-      {
-        "when": "18 Aug 16:06",
-        "source": "MT Newswires",
-        "title": "Canada Commodities: Oil Prices Continue to Climb as Strait of Hormuz Reopening Remains Elusive"
       }
     ],
     "anomalies": [
