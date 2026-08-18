@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-18T19:34:11.918113+00:00",
+  "generated_at": "2026-08-18T20:33:39.225674+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -95,8 +95,8 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7717.0,
-      "pct_change": 0.013,
+      "close": 7715.25,
+      "pct_change": -0.0227,
       "direction": "SELL",
       "score": 5,
       "total": 9,
@@ -104,7 +104,7 @@
       "sell_count": 5,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T20:00:00+02:00",
+      "bar_time": "2026-08-18T21:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -223,8 +223,8 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29571.25,
-      "pct_change": 0.0186,
+      "close": 29586.5,
+      "pct_change": 0.0516,
       "direction": "SELL",
       "score": 6,
       "total": 9,
@@ -232,7 +232,7 @@
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T20:00:00+02:00",
+      "bar_time": "2026-08-18T21:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -287,8 +287,8 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.08,
-      "pct_change": 0.0357,
+      "close": 84.09,
+      "pct_change": 0.0119,
       "direction": "BUY",
       "score": 3,
       "total": 9,
@@ -296,7 +296,7 @@
       "sell_count": 2,
       "tier": "WEAK",
       "tier_emoji": "🟡",
-      "bar_time": "2026-08-18T20:00:00+02:00",
+      "bar_time": "2026-08-18T21:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -351,16 +351,16 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4409.3999,
-      "pct_change": -0.0861,
+      "close": 4400.0,
+      "pct_change": -0.2132,
       "direction": "SELL",
-      "score": 6,
+      "score": 7,
       "total": 9,
       "buy_count": 2,
-      "sell_count": 6,
-      "tier": "MODERATE",
-      "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T20:00:00+02:00",
+      "sell_count": 7,
+      "tier": "STRONG",
+      "tier_emoji": "🔴",
+      "bar_time": "2026-08-18T21:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -401,7 +401,7 @@
         {
           "key": "bollinger",
           "label": "Bollinger",
-          "vote": 0
+          "vote": -1
         },
         {
           "key": "smart_money",
@@ -423,7 +423,47 @@
     "direction": "FALLING",
     "asof": "2026-08-18T00:00:00"
   },
-  "pressure": null,
+  "pressure": {
+    "value": -0.41,
+    "level": "NORMAL",
+    "emoji": "🟢",
+    "percentile": 25.2,
+    "change_1d": -0.146,
+    "change_5d": -0.296,
+    "components": [
+      {
+        "label": "Gasoline futures",
+        "change": -11.062,
+        "z": -1.029,
+        "units": "%"
+      },
+      {
+        "label": "VIX",
+        "change": -15.067,
+        "z": -0.712,
+        "units": "%"
+      },
+      {
+        "label": "S&P 500",
+        "change": 3.338,
+        "z": -0.531,
+        "units": "%"
+      },
+      {
+        "label": "10y Treasury yield",
+        "change": 0.108,
+        "z": 0.189,
+        "units": "pp"
+      },
+      {
+        "label": "WTI crude",
+        "change": 1.213,
+        "z": 0.03,
+        "units": "%"
+      }
+    ],
+    "missing": []
+  },
   "events": {
     "macro": [
       {
@@ -451,44 +491,44 @@
     "earnings": [],
     "headlines": [
       {
+        "when": "18 Aug 22:25",
+        "source": "GuruFocus.com",
+        "title": "Nvidia Stock Drops as Bond Yields Attack AI Valuations"
+      },
+      {
+        "when": "18 Aug 22:25",
+        "source": "Motley Fool",
+        "title": "Where Will the Vanguard S&P 500 ETF Be in 20 Years? History Has Good and Bad News for Investors."
+      },
+      {
+        "when": "18 Aug 22:24",
+        "source": "AFP",
+        "title": "Stocks mostly drop as Mideast hopes dim, interest rates rise"
+      },
+      {
+        "when": "18 Aug 22:01",
+        "source": "Reuters",
+        "title": "Tech selloff weighs down Wall Street as bond yields climb"
+      },
+      {
+        "when": "18 Aug 22:00",
+        "source": "GuruFocus.com",
+        "title": "Exxon Stock Surges 2.3% as Oil Breaks Above $91"
+      },
+      {
+        "when": "18 Aug 21:52",
+        "source": "MT Newswires",
+        "title": "Update: US Equity Indexes Fall as 30-Year Yield Hits 19-Year High, Crude Oil Advances"
+      },
+      {
+        "when": "18 Aug 21:27",
+        "source": "Reuters",
+        "title": "Oil closes at three-week high as hopes of US-Iran peace deal fade"
+      },
+      {
         "when": "18 Aug 21:25",
         "source": "Investor's Business Daily",
         "title": "Stock Market Today: Nasdaq Hit Hard By Chip Names; Sandisk, Micron Slide As Biotech Soars (Live Coverage)"
-      },
-      {
-        "when": "18 Aug 21:24",
-        "source": "GuruFocus.com",
-        "title": "Bank of America Says $5,000 Gold Is Within Reach"
-      },
-      {
-        "when": "18 Aug 21:15",
-        "source": "Motley Fool",
-        "title": "Meet the Dividend King That's Quietly Crushing the S&P 500 in 2026. Here's Why It's a Buy This August."
-      },
-      {
-        "when": "18 Aug 21:07",
-        "source": "The Wall Street Journal",
-        "title": "Oil Posts Modest Gains With Strait of Hormuz Situation Unclear"
-      },
-      {
-        "when": "18 Aug 21:04",
-        "source": "Motley Fool",
-        "title": "Meet the Dividend King Stock That Yields More Than Quadruple the S&P 500. Here's Why It's a Buy in August."
-      },
-      {
-        "when": "18 Aug 21:01",
-        "source": "Reuters",
-        "title": "Global bond markets put governments on notice over fiscal, inflation risks"
-      },
-      {
-        "when": "18 Aug 20:58",
-        "source": "Reuters",
-        "title": "Tech selloff pulls Wall Street to two-week lows as bond yields climb"
-      },
-      {
-        "when": "18 Aug 20:51",
-        "source": "The Wall Street Journal",
-        "title": "Precious Metals Drop Amid Bond Selloff"
       }
     ],
     "anomalies": [
