@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-18T12:20:09.574985+00:00",
+  "generated_at": "2026-08-18T14:16:12.126105+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -31,22 +31,22 @@
       "ticker": "^GSPC",
       "group": "SPX",
       "kind": "spot",
-      "close": 7751.73,
-      "pct_change": -0.0612,
+      "close": 7746.1401,
+      "pct_change": -0.0721,
       "direction": "SELL",
-      "score": 5,
+      "score": 7,
       "total": 9,
-      "buy_count": 2,
-      "sell_count": 5,
-      "tier": "MODERATE",
-      "tier_emoji": "🟠",
-      "bar_time": "2026-08-17T20:30:00+02:00",
+      "buy_count": 1,
+      "sell_count": 7,
+      "tier": "STRONG",
+      "tier_emoji": "🔴",
+      "bar_time": "2026-08-17T21:30:00+02:00",
       "abstained": [],
       "votes": [
         {
           "key": "supertrend",
           "label": "SuperTrend",
-          "vote": 1
+          "vote": -1
         },
         {
           "key": "rsi_trend",
@@ -86,7 +86,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": 0
+          "vote": -1
         }
       ]
     },
@@ -95,8 +95,8 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7734.75,
-      "pct_change": 0.0388,
+      "close": 7724.75,
+      "pct_change": -0.1422,
       "direction": "SELL",
       "score": 6,
       "total": 9,
@@ -104,7 +104,7 @@
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T13:00:00+02:00",
+      "bar_time": "2026-08-18T15:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -159,8 +159,8 @@
       "ticker": "^NDX",
       "group": "US100",
       "kind": "spot",
-      "close": 30001.6582,
-      "pct_change": -0.0429,
+      "close": 30002.2441,
+      "pct_change": 0.002,
       "direction": "SELL",
       "score": 4,
       "total": 9,
@@ -168,7 +168,7 @@
       "sell_count": 4,
       "tier": "WEAK",
       "tier_emoji": "🟡",
-      "bar_time": "2026-08-17T20:30:00+02:00",
+      "bar_time": "2026-08-17T21:30:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -223,8 +223,8 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29747.25,
-      "pct_change": 0.0277,
+      "close": 29646.25,
+      "pct_change": -0.2246,
       "direction": "SELL",
       "score": 6,
       "total": 9,
@@ -232,7 +232,7 @@
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T13:00:00+02:00",
+      "bar_time": "2026-08-18T15:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -287,16 +287,16 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.15,
-      "pct_change": 0.2024,
+      "close": 84.56,
+      "pct_change": 0.2252,
       "direction": "BUY",
-      "score": 3,
+      "score": 5,
       "total": 9,
-      "buy_count": 3,
+      "buy_count": 5,
       "sell_count": 2,
-      "tier": "WEAK",
-      "tier_emoji": "🟡",
-      "bar_time": "2026-08-18T13:00:00+02:00",
+      "tier": "MODERATE",
+      "tier_emoji": "🟠",
+      "bar_time": "2026-08-18T15:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -307,7 +307,7 @@
         {
           "key": "rsi_trend",
           "label": "RSI trend",
-          "vote": 0
+          "vote": 1
         },
         {
           "key": "rsi_bars",
@@ -317,12 +317,12 @@
         {
           "key": "squeeze_momentum",
           "label": "Squeeze Momentum",
-          "vote": 1
+          "vote": -1
         },
         {
           "key": "accum_dist",
           "label": "Accum/Dist",
-          "vote": -1
+          "vote": 1
         },
         {
           "key": "ema_cross",
@@ -342,7 +342,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": 0
+          "vote": 1
         }
       ]
     },
@@ -351,8 +351,8 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4452.2998,
-      "pct_change": -0.0471,
+      "close": 4451.0,
+      "pct_change": 0.0067,
       "direction": "FLAT",
       "score": 0,
       "total": 9,
@@ -360,7 +360,7 @@
       "sell_count": 3,
       "tier": null,
       "tier_emoji": null,
-      "bar_time": "2026-08-18T13:00:00+02:00",
+      "bar_time": "2026-08-18T15:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -415,13 +415,13 @@
   "yields": {
     "name": "US 10-year Treasury yield",
     "ticker": "^TNX",
-    "level": 4.696,
-    "change_bp": 5.5,
-    "change_5d_bp": 3.6,
-    "change_20d_bp": 15.5,
-    "sigma_mult": 1.39,
+    "level": 4.72,
+    "change_bp": 2.4,
+    "change_5d_bp": 2.1,
+    "change_20d_bp": 12.2,
+    "sigma_mult": 0.61,
     "direction": "RISING",
-    "asof": "2026-08-14T00:00:00"
+    "asof": "2026-08-18T00:00:00"
   },
   "events": {
     "macro": [
@@ -450,44 +450,44 @@
     "earnings": [],
     "headlines": [
       {
-        "when": "18 Aug 14:00",
-        "source": "Investor's Business Daily",
-        "title": "11 S&P 500 Stocks Soar To Record Highs In The Blink Of An Eye"
-      },
-      {
-        "when": "18 Aug 13:47",
-        "source": "MT Newswires",
-        "title": "Oil, Interest Rate Outlooks Undercut European Bourses Midday"
-      },
-      {
-        "when": "18 Aug 13:40",
-        "source": "Barrons.com",
-        "title": "The Stock Market Party Has Yet to End. But Rising Bond Yields Might Be the Unwanted Guest."
-      },
-      {
-        "when": "18 Aug 13:37",
-        "source": "Proactive",
-        "title": "Wall Street wakes up to oil, bombs and bond-market drama"
-      },
-      {
-        "when": "18 Aug 13:37",
+        "when": "18 Aug 16:05",
         "source": "Motley Fool",
-        "title": "If I Could Tell Every Investor 1 Thing About Preparing for a Recession, It's This"
+        "title": "I Own Enbridge for the Yield, Not the Growth Story. Here's Why This Quarter Didn't Change My Mind."
       },
       {
-        "when": "18 Aug 13:30",
-        "source": "Stocktwits",
-        "title": "Bitcoin Holds Near $64K, While Crypto Stocks Slide – Glassnode Says BTC Is Losing Ground To The S&P 500"
+        "when": "18 Aug 15:59",
+        "source": "MT Newswires",
+        "title": "Canadian Dollar Struggles to Recover as US Trade Risks Persist, Commerzbank Says"
       },
       {
-        "when": "18 Aug 13:29",
+        "when": "18 Aug 15:53",
+        "source": "Barrons.com",
+        "title": "Baidu Stock Drops as Earnings Show the Perils of Going All-In on AI"
+      },
+      {
+        "when": "18 Aug 15:50",
+        "source": "24/7 Wall St.",
+        "title": "Top Analyst Sees the S&P 500 at 10,000. He Says He Can’t Find a Reason It Won’t Happen"
+      },
+      {
+        "when": "18 Aug 15:49",
+        "source": "Barrons.com",
+        "title": "Reddit Stock Joins the S&P 500 but Its Boost Is Already Fading"
+      },
+      {
+        "when": "18 Aug 15:47",
         "source": "AFP",
         "title": "Stocks mostly drop as Mideast hopes dim, interest rates rise"
       },
       {
-        "when": "18 Aug 13:26",
-        "source": "Quartz",
-        "title": "S&P 500 futures fall as U.S.-Iran truce expires, yields spike"
+        "when": "18 Aug 15:47",
+        "source": "The Wall Street Journal",
+        "title": "Oil Extends Gains As Hormuz Solution Appears Distant"
+      },
+      {
+        "when": "18 Aug 15:39",
+        "source": "Investor's Business Daily",
+        "title": "Stock Market Today: Nasdaq Sinks As Treasury Yields Jump; Nvidia, Micron, Sandisk All Tumble (Live Coverage)"
       }
     ],
     "anomalies": [
