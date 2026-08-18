@@ -1,0 +1,499 @@
+{
+  "schema": 1,
+  "generated_at": "2026-08-18T12:20:09.574985+00:00",
+  "timezone": "Europe/Berlin",
+  "interval": "1h",
+  "tiers": [
+    {
+      "score": 3,
+      "label": "WEAK",
+      "emoji": "🟡"
+    },
+    {
+      "score": 5,
+      "label": "MODERATE",
+      "emoji": "🟠"
+    },
+    {
+      "score": 7,
+      "label": "STRONG",
+      "emoji": "🔴"
+    },
+    {
+      "score": 9,
+      "label": "UNANIMOUS",
+      "emoji": "🚨"
+    }
+  ],
+  "instruments": [
+    {
+      "name": "S&P 500 Index",
+      "ticker": "^GSPC",
+      "group": "SPX",
+      "kind": "spot",
+      "close": 7751.73,
+      "pct_change": -0.0612,
+      "direction": "SELL",
+      "score": 5,
+      "total": 9,
+      "buy_count": 2,
+      "sell_count": 5,
+      "tier": "MODERATE",
+      "tier_emoji": "🟠",
+      "bar_time": "2026-08-17T20:30:00+02:00",
+      "abstained": [],
+      "votes": [
+        {
+          "key": "supertrend",
+          "label": "SuperTrend",
+          "vote": 1
+        },
+        {
+          "key": "rsi_trend",
+          "label": "RSI trend",
+          "vote": -1
+        },
+        {
+          "key": "rsi_bars",
+          "label": "RSI bars (OB/OS)",
+          "vote": 0
+        },
+        {
+          "key": "squeeze_momentum",
+          "label": "Squeeze Momentum",
+          "vote": -1
+        },
+        {
+          "key": "accum_dist",
+          "label": "Accum/Dist",
+          "vote": -1
+        },
+        {
+          "key": "ema_cross",
+          "label": "EMA 50/200",
+          "vote": 1
+        },
+        {
+          "key": "macd",
+          "label": "MACD",
+          "vote": -1
+        },
+        {
+          "key": "bollinger",
+          "label": "Bollinger",
+          "vote": -1
+        },
+        {
+          "key": "smart_money",
+          "label": "Smart Money Flow",
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "name": "S&P 500 E-mini Future",
+      "ticker": "ES=F",
+      "group": "SPX",
+      "kind": "futures",
+      "close": 7734.75,
+      "pct_change": 0.0388,
+      "direction": "SELL",
+      "score": 6,
+      "total": 9,
+      "buy_count": 2,
+      "sell_count": 6,
+      "tier": "MODERATE",
+      "tier_emoji": "🟠",
+      "bar_time": "2026-08-18T13:00:00+02:00",
+      "abstained": [],
+      "votes": [
+        {
+          "key": "supertrend",
+          "label": "SuperTrend",
+          "vote": -1
+        },
+        {
+          "key": "rsi_trend",
+          "label": "RSI trend",
+          "vote": -1
+        },
+        {
+          "key": "rsi_bars",
+          "label": "RSI bars (OB/OS)",
+          "vote": 1
+        },
+        {
+          "key": "squeeze_momentum",
+          "label": "Squeeze Momentum",
+          "vote": -1
+        },
+        {
+          "key": "accum_dist",
+          "label": "Accum/Dist",
+          "vote": -1
+        },
+        {
+          "key": "ema_cross",
+          "label": "EMA 50/200",
+          "vote": 1
+        },
+        {
+          "key": "macd",
+          "label": "MACD",
+          "vote": -1
+        },
+        {
+          "key": "bollinger",
+          "label": "Bollinger",
+          "vote": 0
+        },
+        {
+          "key": "smart_money",
+          "label": "Smart Money Flow",
+          "vote": -1
+        }
+      ]
+    },
+    {
+      "name": "Nasdaq 100 Index",
+      "ticker": "^NDX",
+      "group": "US100",
+      "kind": "spot",
+      "close": 30001.6582,
+      "pct_change": -0.0429,
+      "direction": "SELL",
+      "score": 4,
+      "total": 9,
+      "buy_count": 3,
+      "sell_count": 4,
+      "tier": "WEAK",
+      "tier_emoji": "🟡",
+      "bar_time": "2026-08-17T20:30:00+02:00",
+      "abstained": [],
+      "votes": [
+        {
+          "key": "supertrend",
+          "label": "SuperTrend",
+          "vote": 1
+        },
+        {
+          "key": "rsi_trend",
+          "label": "RSI trend",
+          "vote": 1
+        },
+        {
+          "key": "rsi_bars",
+          "label": "RSI bars (OB/OS)",
+          "vote": 0
+        },
+        {
+          "key": "squeeze_momentum",
+          "label": "Squeeze Momentum",
+          "vote": -1
+        },
+        {
+          "key": "accum_dist",
+          "label": "Accum/Dist",
+          "vote": -1
+        },
+        {
+          "key": "ema_cross",
+          "label": "EMA 50/200",
+          "vote": 1
+        },
+        {
+          "key": "macd",
+          "label": "MACD",
+          "vote": -1
+        },
+        {
+          "key": "bollinger",
+          "label": "Bollinger",
+          "vote": 0
+        },
+        {
+          "key": "smart_money",
+          "label": "Smart Money Flow",
+          "vote": -1
+        }
+      ]
+    },
+    {
+      "name": "Nasdaq 100 E-mini Future",
+      "ticker": "NQ=F",
+      "group": "US100",
+      "kind": "futures",
+      "close": 29747.25,
+      "pct_change": 0.0277,
+      "direction": "SELL",
+      "score": 6,
+      "total": 9,
+      "buy_count": 2,
+      "sell_count": 6,
+      "tier": "MODERATE",
+      "tier_emoji": "🟠",
+      "bar_time": "2026-08-18T13:00:00+02:00",
+      "abstained": [],
+      "votes": [
+        {
+          "key": "supertrend",
+          "label": "SuperTrend",
+          "vote": -1
+        },
+        {
+          "key": "rsi_trend",
+          "label": "RSI trend",
+          "vote": -1
+        },
+        {
+          "key": "rsi_bars",
+          "label": "RSI bars (OB/OS)",
+          "vote": 1
+        },
+        {
+          "key": "squeeze_momentum",
+          "label": "Squeeze Momentum",
+          "vote": -1
+        },
+        {
+          "key": "accum_dist",
+          "label": "Accum/Dist",
+          "vote": -1
+        },
+        {
+          "key": "ema_cross",
+          "label": "EMA 50/200",
+          "vote": 1
+        },
+        {
+          "key": "macd",
+          "label": "MACD",
+          "vote": -1
+        },
+        {
+          "key": "bollinger",
+          "label": "Bollinger",
+          "vote": 0
+        },
+        {
+          "key": "smart_money",
+          "label": "Smart Money Flow",
+          "vote": -1
+        }
+      ]
+    },
+    {
+      "name": "WTI Crude Oil Future",
+      "ticker": "CL=F",
+      "group": "OIL",
+      "kind": "futures",
+      "close": 84.15,
+      "pct_change": 0.2024,
+      "direction": "BUY",
+      "score": 3,
+      "total": 9,
+      "buy_count": 3,
+      "sell_count": 2,
+      "tier": "WEAK",
+      "tier_emoji": "🟡",
+      "bar_time": "2026-08-18T13:00:00+02:00",
+      "abstained": [],
+      "votes": [
+        {
+          "key": "supertrend",
+          "label": "SuperTrend",
+          "vote": 1
+        },
+        {
+          "key": "rsi_trend",
+          "label": "RSI trend",
+          "vote": 0
+        },
+        {
+          "key": "rsi_bars",
+          "label": "RSI bars (OB/OS)",
+          "vote": 0
+        },
+        {
+          "key": "squeeze_momentum",
+          "label": "Squeeze Momentum",
+          "vote": 1
+        },
+        {
+          "key": "accum_dist",
+          "label": "Accum/Dist",
+          "vote": -1
+        },
+        {
+          "key": "ema_cross",
+          "label": "EMA 50/200",
+          "vote": 1
+        },
+        {
+          "key": "macd",
+          "label": "MACD",
+          "vote": -1
+        },
+        {
+          "key": "bollinger",
+          "label": "Bollinger",
+          "vote": 0
+        },
+        {
+          "key": "smart_money",
+          "label": "Smart Money Flow",
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "name": "Gold Future",
+      "ticker": "GC=F",
+      "group": "GOLD",
+      "kind": "futures",
+      "close": 4452.2998,
+      "pct_change": -0.0471,
+      "direction": "FLAT",
+      "score": 0,
+      "total": 9,
+      "buy_count": 3,
+      "sell_count": 3,
+      "tier": null,
+      "tier_emoji": null,
+      "bar_time": "2026-08-18T13:00:00+02:00",
+      "abstained": [],
+      "votes": [
+        {
+          "key": "supertrend",
+          "label": "SuperTrend",
+          "vote": 1
+        },
+        {
+          "key": "rsi_trend",
+          "label": "RSI trend",
+          "vote": -1
+        },
+        {
+          "key": "rsi_bars",
+          "label": "RSI bars (OB/OS)",
+          "vote": 0
+        },
+        {
+          "key": "squeeze_momentum",
+          "label": "Squeeze Momentum",
+          "vote": -1
+        },
+        {
+          "key": "accum_dist",
+          "label": "Accum/Dist",
+          "vote": 1
+        },
+        {
+          "key": "ema_cross",
+          "label": "EMA 50/200",
+          "vote": 1
+        },
+        {
+          "key": "macd",
+          "label": "MACD",
+          "vote": -1
+        },
+        {
+          "key": "bollinger",
+          "label": "Bollinger",
+          "vote": 0
+        },
+        {
+          "key": "smart_money",
+          "label": "Smart Money Flow",
+          "vote": 0
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "yields": {
+    "name": "US 10-year Treasury yield",
+    "ticker": "^TNX",
+    "level": 4.696,
+    "change_bp": 5.5,
+    "change_5d_bp": 3.6,
+    "change_20d_bp": 15.5,
+    "sigma_mult": 1.39,
+    "direction": "RISING",
+    "asof": "2026-08-14T00:00:00"
+  },
+  "events": {
+    "macro": [
+      {
+        "date": "2026-08-19",
+        "title": "EIA crude oil inventories",
+        "time": "16:30",
+        "source": "EIA",
+        "affects": [
+          "OIL"
+        ]
+      },
+      {
+        "date": "2026-08-20",
+        "title": "US initial jobless claims",
+        "time": "14:30",
+        "source": "DOL",
+        "affects": [
+          "SPX",
+          "US100",
+          "OIL",
+          "GOLD"
+        ]
+      }
+    ],
+    "earnings": [],
+    "headlines": [
+      {
+        "when": "18 Aug 14:00",
+        "source": "Investor's Business Daily",
+        "title": "11 S&P 500 Stocks Soar To Record Highs In The Blink Of An Eye"
+      },
+      {
+        "when": "18 Aug 13:47",
+        "source": "MT Newswires",
+        "title": "Oil, Interest Rate Outlooks Undercut European Bourses Midday"
+      },
+      {
+        "when": "18 Aug 13:40",
+        "source": "Barrons.com",
+        "title": "The Stock Market Party Has Yet to End. But Rising Bond Yields Might Be the Unwanted Guest."
+      },
+      {
+        "when": "18 Aug 13:37",
+        "source": "Proactive",
+        "title": "Wall Street wakes up to oil, bombs and bond-market drama"
+      },
+      {
+        "when": "18 Aug 13:37",
+        "source": "Motley Fool",
+        "title": "If I Could Tell Every Investor 1 Thing About Preparing for a Recession, It's This"
+      },
+      {
+        "when": "18 Aug 13:30",
+        "source": "Stocktwits",
+        "title": "Bitcoin Holds Near $64K, While Crypto Stocks Slide – Glassnode Says BTC Is Losing Ground To The S&P 500"
+      },
+      {
+        "when": "18 Aug 13:29",
+        "source": "AFP",
+        "title": "Stocks mostly drop as Mideast hopes dim, interest rates rise"
+      },
+      {
+        "when": "18 Aug 13:26",
+        "source": "Quartz",
+        "title": "S&P 500 futures fall as U.S.-Iran truce expires, yields spike"
+      }
+    ],
+    "anomalies": [
+      "S&P 500 Index: hourly ranges 1.8x tighter than the past 10 days — coiled, watch for a break",
+      "Nasdaq 100 Index: hourly ranges 1.8x tighter than the past 10 days — coiled, watch for a break"
+    ],
+    "notes": []
+  }
+}
