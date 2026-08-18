@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-18T18:50:43.053942+00:00",
+  "generated_at": "2026-08-18T19:04:18.953013+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -289,13 +289,13 @@
       "kind": "futures",
       "close": 84.05,
       "pct_change": -0.19,
-      "direction": "BUY",
-      "score": 3,
+      "direction": "FLAT",
+      "score": 0,
       "total": 9,
       "buy_count": 3,
-      "sell_count": 2,
-      "tier": "WEAK",
-      "tier_emoji": "🟡",
+      "sell_count": 3,
+      "tier": null,
+      "tier_emoji": null,
       "bar_time": "2026-08-18T19:00:00+02:00",
       "abstained": [],
       "votes": [
@@ -342,7 +342,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": 0
+          "vote": -1
         }
       ]
     },
@@ -412,7 +412,51 @@
     }
   ],
   "failures": [],
-  "yields": null,
+  "yields": {
+    "name": "US 10-year Treasury yield",
+    "ticker": "^TNX",
+    "level": 4.706,
+    "change_bp": -1.8,
+    "change_5d_bp": 2.2,
+    "change_20d_bp": 7.8,
+    "sigma_mult": 0.46,
+    "direction": "FALLING",
+    "asof": "2026-08-18T00:00:00"
+  },
+  "pressure": {
+    "value": -0.428,
+    "level": "NORMAL",
+    "emoji": "🟢",
+    "percentile": 27.4,
+    "change_1d": 0.032,
+    "change_5d": -0.276,
+    "components": [
+      {
+        "label": "VIX",
+        "change": -15.979,
+        "z": -0.749,
+        "units": "%"
+      },
+      {
+        "label": "S&P 500",
+        "change": 3.421,
+        "z": -0.549,
+        "units": "%"
+      },
+      {
+        "label": "WTI crude",
+        "change": 1.057,
+        "z": 0.015,
+        "units": "%"
+      }
+    ],
+    "missing": [
+      "10y Treasury yield",
+      "30y mortgage rate",
+      "Retail gasoline",
+      "Inflation breakeven"
+    ]
+  },
   "events": {
     "macro": [
       {
@@ -440,29 +484,24 @@
     "earnings": [],
     "headlines": [
       {
-        "when": "18 Aug 20:35",
-        "source": "24/7 Wall St.",
-        "title": "QuantumScape Falls 6%, Enovix Sinks 14%, Solid Power Drops 4% as Yields at 19-Year Highs Hit Speculative Growth"
+        "when": "18 Aug 21:04",
+        "source": "Motley Fool",
+        "title": "Meet the Dividend King Stock That Yields More Than Quadruple the S&P 500. Here's Why It's a Buy in August."
       },
       {
-        "when": "18 Aug 20:29",
-        "source": "StockStory",
-        "title": "First Commonwealth Financial (FCF): Buy, Sell, or Hold Post Q2 Earnings?"
+        "when": "18 Aug 21:01",
+        "source": "Reuters",
+        "title": "Global bond markets put governments on notice over fiscal, inflation risks"
+      },
+      {
+        "when": "18 Aug 20:58",
+        "source": "Reuters",
+        "title": "Tech selloff pulls Wall Street to two-week lows as bond yields climb"
       },
       {
         "when": "18 Aug 20:03",
         "source": "MT Newswires",
         "title": "Update: Equities Fall, Oil Rises as Trump Says US Not in Talks With Iran"
-      },
-      {
-        "when": "18 Aug 19:45",
-        "source": "MT Newswires",
-        "title": "Update: Technology Pushes US Equity Indexes Lower as 30-Year Yield Touches 19-Year High, Crude Oil Rises"
-      },
-      {
-        "when": "18 Aug 19:35",
-        "source": "Investor's Business Daily",
-        "title": "Stock Market Today: Nasdaq Weighed Down By Chip Names; Credo Plunges With Micron, Sandisk (Live Coverage)"
       },
       {
         "when": "18 Aug 18:03",
@@ -478,6 +517,11 @@
         "when": "18 Aug 18:00",
         "source": "Proactive",
         "title": "Domestic Metals CEO Gordon Neal brings a billion-dollar track record to Smart Creek"
+      },
+      {
+        "when": "18 Aug 16:06",
+        "source": "MT Newswires",
+        "title": "Canada Commodities: Oil Prices Continue to Climb as Strait of Hormuz Reopening Remains Elusive"
       }
     ],
     "anomalies": [
