@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-18T15:39:37.286693+00:00",
+  "generated_at": "2026-08-18T16:40:52.288420+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -31,8 +31,8 @@
       "ticker": "^GSPC",
       "group": "SPX",
       "kind": "spot",
-      "close": 7698.9302,
-      "pct_change": -0.1043,
+      "close": 7702.23,
+      "pct_change": 0.0429,
       "direction": "SELL",
       "score": 7,
       "total": 9,
@@ -40,7 +40,7 @@
       "sell_count": 7,
       "tier": "STRONG",
       "tier_emoji": "🔴",
-      "bar_time": "2026-08-18T16:30:00+02:00",
+      "bar_time": "2026-08-18T17:30:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -95,8 +95,8 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7719.25,
-      "pct_change": -0.0712,
+      "close": 7723.25,
+      "pct_change": 0.0518,
       "direction": "SELL",
       "score": 6,
       "total": 9,
@@ -104,7 +104,7 @@
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T16:00:00+02:00",
+      "bar_time": "2026-08-18T17:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -159,16 +159,16 @@
       "ticker": "^NDX",
       "group": "US100",
       "kind": "spot",
-      "close": 29500.2324,
-      "pct_change": -0.2632,
+      "close": 29518.9102,
+      "pct_change": 0.0633,
       "direction": "SELL",
       "score": 7,
       "total": 9,
-      "buy_count": 2,
+      "buy_count": 1,
       "sell_count": 7,
       "tier": "STRONG",
       "tier_emoji": "🔴",
-      "bar_time": "2026-08-18T16:30:00+02:00",
+      "bar_time": "2026-08-18T17:30:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -184,7 +184,7 @@
         {
           "key": "rsi_bars",
           "label": "RSI bars (OB/OS)",
-          "vote": 1
+          "vote": 0
         },
         {
           "key": "squeeze_momentum",
@@ -223,16 +223,16 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29547.75,
-      "pct_change": -0.3323,
+      "close": 29637.0,
+      "pct_change": 0.3021,
       "direction": "SELL",
-      "score": 7,
+      "score": 6,
       "total": 9,
       "buy_count": 2,
-      "sell_count": 7,
-      "tier": "STRONG",
-      "tier_emoji": "🔴",
-      "bar_time": "2026-08-18T16:00:00+02:00",
+      "sell_count": 6,
+      "tier": "MODERATE",
+      "tier_emoji": "🟠",
+      "bar_time": "2026-08-18T17:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -273,7 +273,7 @@
         {
           "key": "bollinger",
           "label": "Bollinger",
-          "vote": -1
+          "vote": 0
         },
         {
           "key": "smart_money",
@@ -287,16 +287,16 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.51,
-      "pct_change": -0.0591,
+      "close": 84.72,
+      "pct_change": 0.2485,
       "direction": "BUY",
-      "score": 4,
+      "score": 5,
       "total": 9,
-      "buy_count": 4,
+      "buy_count": 5,
       "sell_count": 2,
-      "tier": "WEAK",
-      "tier_emoji": "🟡",
-      "bar_time": "2026-08-18T16:00:00+02:00",
+      "tier": "MODERATE",
+      "tier_emoji": "🟠",
+      "bar_time": "2026-08-18T17:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -342,7 +342,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": 0
+          "vote": 1
         }
       ]
     },
@@ -351,8 +351,8 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4422.2998,
-      "pct_change": -0.6448,
+      "close": 4420.2002,
+      "pct_change": -0.0475,
       "direction": "SELL",
       "score": 7,
       "total": 9,
@@ -360,7 +360,7 @@
       "sell_count": 7,
       "tier": "STRONG",
       "tier_emoji": "🔴",
-      "bar_time": "2026-08-18T16:00:00+02:00",
+      "bar_time": "2026-08-18T17:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -415,11 +415,11 @@
   "yields": {
     "name": "US 10-year Treasury yield",
     "ticker": "^TNX",
-    "level": 4.716,
-    "change_bp": -0.8,
-    "change_5d_bp": 3.2,
-    "change_20d_bp": 8.8,
-    "sigma_mult": 0.2,
+    "level": 4.71,
+    "change_bp": -1.4,
+    "change_5d_bp": 2.6,
+    "change_20d_bp": 8.2,
+    "sigma_mult": 0.35,
     "direction": "FALLING",
     "asof": "2026-08-18T00:00:00"
   },
@@ -450,49 +450,47 @@
     "earnings": [],
     "headlines": [
       {
-        "when": "18 Aug 17:16",
-        "source": "Reuters",
-        "title": "Oil rises as US-Iran peace hopes fade"
+        "when": "18 Aug 18:21",
+        "source": "StockStory",
+        "title": "WillScot Mobile Mini (WSC): Buy, Sell, or Hold Post Q2 Earnings?"
       },
       {
-        "when": "18 Aug 17:09",
-        "source": "Reuters",
-        "title": "Stocks slide, yields elevated as Mideast conflict fears grow"
-      },
-      {
-        "when": "18 Aug 16:55",
-        "source": "Reuters",
-        "title": "Global bond markets put governments on notice over fiscal, inflation risks"
-      },
-      {
-        "when": "18 Aug 16:45",
-        "source": "Investor's Business Daily",
-        "title": "10-Year Treasury Yield Near Breakout; What You Need To Know"
-      },
-      {
-        "when": "18 Aug 16:40",
+        "when": "18 Aug 18:20",
         "source": "Motley Fool",
-        "title": "Nvidia Is on Track to Beat the S&P 500 for the 4th Straight Year. Should Its $500 Billion AI Infrastructure Financing Plan Give Investors Pause?"
+        "title": "The S&P 500 Is Flashing a Warning Not Seen Since the Dot-Com Bubble; History Suggests This Could Happen Next"
       },
       {
-        "when": "18 Aug 16:21",
+        "when": "18 Aug 18:14",
+        "source": "PA Media: Money",
+        "title": "FTSE 100 holds modest gains with oil stocks up amid rising prices"
+      },
+      {
+        "when": "18 Aug 18:13",
+        "source": "Reuters",
+        "title": "STOXX 600 drops to two-week low on higher bond yields, Middle East uncertainty"
+      },
+      {
+        "when": "18 Aug 18:03",
+        "source": "TheStreet",
+        "title": "Wells Fargo revamps gold price target for the rest of 2026"
+      },
+      {
+        "when": "18 Aug 18:02",
         "source": "Investor's Business Daily",
-        "title": "Stock Market Today: Nasdaq Falls As Treasury Yields Rise; Micron, Sandisk And Fabrinet All Slide (Live Coverage)"
+        "title": "Stock Market Today: Nasdaq Retreats As Chipmakers Sell Off; Micron, Sandisk And A Fintech Fall (Live Coverage)"
       },
       {
-        "when": "18 Aug 16:06",
-        "source": "MT Newswires",
-        "title": "Canada Commodities: Oil Prices Continue to Climb as Strait of Hormuz Reopening Remains Elusive"
+        "when": "18 Aug 18:00",
+        "source": "Yahoo Finance Video",
+        "title": "Gold can be a great inflation hedge, but sometimes it's not: AlphaSpace breakdown"
       },
       {
-        "when": "18 Aug 16:05",
-        "source": "Motley Fool",
-        "title": "I Own Enbridge for the Yield, Not the Growth Story. Here's Why This Quarter Didn't Change My Mind."
+        "when": "18 Aug 18:00",
+        "source": "Proactive",
+        "title": "Domestic Metals CEO Gordon Neal brings a billion-dollar track record to Smart Creek"
       }
     ],
-    "anomalies": [
-      "Gold Future: last bar moved -0.64%, 2.5x its recent hourly volatility"
-    ],
+    "anomalies": [],
     "notes": []
   }
 }
