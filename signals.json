@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-18T16:40:52.288420+00:00",
+  "generated_at": "2026-08-18T17:35:39.482433+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -31,16 +31,16 @@
       "ticker": "^GSPC",
       "group": "SPX",
       "kind": "spot",
-      "close": 7702.23,
-      "pct_change": 0.0429,
+      "close": 7702.9902,
+      "pct_change": 0.0099,
       "direction": "SELL",
-      "score": 7,
+      "score": 6,
       "total": 9,
       "buy_count": 2,
-      "sell_count": 7,
-      "tier": "STRONG",
-      "tier_emoji": "🔴",
-      "bar_time": "2026-08-18T17:30:00+02:00",
+      "sell_count": 6,
+      "tier": "MODERATE",
+      "tier_emoji": "🟠",
+      "bar_time": "2026-08-18T18:30:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -81,7 +81,7 @@
         {
           "key": "bollinger",
           "label": "Bollinger",
-          "vote": -1
+          "vote": 0
         },
         {
           "key": "smart_money",
@@ -95,16 +95,16 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7723.25,
-      "pct_change": 0.0518,
+      "close": 7726.0,
+      "pct_change": 0.0356,
       "direction": "SELL",
-      "score": 6,
+      "score": 5,
       "total": 9,
       "buy_count": 2,
-      "sell_count": 6,
+      "sell_count": 5,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T17:00:00+02:00",
+      "bar_time": "2026-08-18T18:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -120,7 +120,7 @@
         {
           "key": "rsi_bars",
           "label": "RSI bars (OB/OS)",
-          "vote": 1
+          "vote": 0
         },
         {
           "key": "squeeze_momentum",
@@ -140,7 +140,7 @@
         {
           "key": "macd",
           "label": "MACD",
-          "vote": -1
+          "vote": 1
         },
         {
           "key": "bollinger",
@@ -159,16 +159,16 @@
       "ticker": "^NDX",
       "group": "US100",
       "kind": "spot",
-      "close": 29518.9102,
-      "pct_change": 0.0633,
+      "close": 29523.0156,
+      "pct_change": 0.0139,
       "direction": "SELL",
-      "score": 7,
+      "score": 6,
       "total": 9,
       "buy_count": 1,
-      "sell_count": 7,
-      "tier": "STRONG",
-      "tier_emoji": "🔴",
-      "bar_time": "2026-08-18T17:30:00+02:00",
+      "sell_count": 6,
+      "tier": "MODERATE",
+      "tier_emoji": "🟠",
+      "bar_time": "2026-08-18T18:30:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -209,7 +209,7 @@
         {
           "key": "bollinger",
           "label": "Bollinger",
-          "vote": -1
+          "vote": 0
         },
         {
           "key": "smart_money",
@@ -223,16 +223,16 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29637.0,
-      "pct_change": 0.3021,
+      "close": 29649.75,
+      "pct_change": 0.043,
       "direction": "SELL",
       "score": 6,
       "total": 9,
-      "buy_count": 2,
+      "buy_count": 1,
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T17:00:00+02:00",
+      "bar_time": "2026-08-18T18:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -248,7 +248,7 @@
         {
           "key": "rsi_bars",
           "label": "RSI bars (OB/OS)",
-          "vote": 1
+          "vote": 0
         },
         {
           "key": "squeeze_momentum",
@@ -287,16 +287,16 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.72,
-      "pct_change": 0.2485,
+      "close": 84.21,
+      "pct_change": -0.602,
       "direction": "BUY",
-      "score": 5,
+      "score": 3,
       "total": 9,
-      "buy_count": 5,
+      "buy_count": 3,
       "sell_count": 2,
-      "tier": "MODERATE",
-      "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T17:00:00+02:00",
+      "tier": "WEAK",
+      "tier_emoji": "🟡",
+      "bar_time": "2026-08-18T18:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -307,7 +307,7 @@
         {
           "key": "rsi_trend",
           "label": "RSI trend",
-          "vote": 1
+          "vote": 0
         },
         {
           "key": "rsi_bars",
@@ -342,7 +342,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": 1
+          "vote": 0
         }
       ]
     },
@@ -351,16 +351,16 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4420.2002,
-      "pct_change": -0.0475,
+      "close": 4419.0,
+      "pct_change": -0.0272,
       "direction": "SELL",
-      "score": 7,
+      "score": 6,
       "total": 9,
       "buy_count": 1,
-      "sell_count": 7,
-      "tier": "STRONG",
-      "tier_emoji": "🔴",
-      "bar_time": "2026-08-18T17:00:00+02:00",
+      "sell_count": 6,
+      "tier": "MODERATE",
+      "tier_emoji": "🟠",
+      "bar_time": "2026-08-18T18:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -401,7 +401,7 @@
         {
           "key": "bollinger",
           "label": "Bollinger",
-          "vote": -1
+          "vote": 0
         },
         {
           "key": "smart_money",
@@ -412,17 +412,7 @@
     }
   ],
   "failures": [],
-  "yields": {
-    "name": "US 10-year Treasury yield",
-    "ticker": "^TNX",
-    "level": 4.71,
-    "change_bp": -1.4,
-    "change_5d_bp": 2.6,
-    "change_20d_bp": 8.2,
-    "sigma_mult": 0.35,
-    "direction": "FALLING",
-    "asof": "2026-08-18T00:00:00"
-  },
+  "yields": null,
   "events": {
     "macro": [
       {
@@ -450,14 +440,24 @@
     "earnings": [],
     "headlines": [
       {
-        "when": "18 Aug 18:21",
-        "source": "StockStory",
-        "title": "WillScot Mobile Mini (WSC): Buy, Sell, or Hold Post Q2 Earnings?"
+        "when": "18 Aug 19:15",
+        "source": "MT Newswires",
+        "title": "Exchange-Traded Funds Lower as US Equities Decline After Midday"
       },
       {
-        "when": "18 Aug 18:20",
-        "source": "Motley Fool",
-        "title": "The S&P 500 Is Flashing a Warning Not Seen Since the Dot-Com Bubble; History Suggests This Could Happen Next"
+        "when": "18 Aug 19:01",
+        "source": "Reuters",
+        "title": "Oil inches up as US-Iran peace deal fades"
+      },
+      {
+        "when": "18 Aug 18:52",
+        "source": "MT Newswires",
+        "title": "Update: US Equity Indexes Fall as 30-Year Yield Remains Elevated, Crude Oil Jumps"
+      },
+      {
+        "when": "18 Aug 18:45",
+        "source": "StockStory",
+        "title": "StepStone Group (STEP): Buy, Sell, or Hold Post Q2 Earnings?"
       },
       {
         "when": "18 Aug 18:14",
@@ -478,19 +478,12 @@
         "when": "18 Aug 18:02",
         "source": "Investor's Business Daily",
         "title": "Stock Market Today: Nasdaq Retreats As Chipmakers Sell Off; Micron, Sandisk And A Fintech Fall (Live Coverage)"
-      },
-      {
-        "when": "18 Aug 18:00",
-        "source": "Yahoo Finance Video",
-        "title": "Gold can be a great inflation hedge, but sometimes it's not: AlphaSpace breakdown"
-      },
-      {
-        "when": "18 Aug 18:00",
-        "source": "Proactive",
-        "title": "Domestic Metals CEO Gordon Neal brings a billion-dollar track record to Smart Creek"
       }
     ],
-    "anomalies": [],
+    "anomalies": [
+      "S&P 500 Index: hourly ranges 1.9x tighter than the past 10 days — coiled, watch for a break",
+      "Nasdaq 100 Index: hourly ranges 1.8x tighter than the past 10 days — coiled, watch for a break"
+    ],
     "notes": []
   }
 }
