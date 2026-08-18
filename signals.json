@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-18T22:33:11.533632+00:00",
+  "generated_at": "2026-08-18T23:29:39.815683+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -95,8 +95,8 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7713.25,
-      "pct_change": -0.0259,
+      "close": 7707.75,
+      "pct_change": -0.0713,
       "direction": "SELL",
       "score": 5,
       "total": 9,
@@ -104,7 +104,7 @@
       "sell_count": 5,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T22:00:00+02:00",
+      "bar_time": "2026-08-19T00:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -223,8 +223,8 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29559.5,
-      "pct_change": -0.0913,
+      "close": 29519.5,
+      "pct_change": -0.1353,
       "direction": "SELL",
       "score": 6,
       "total": 9,
@@ -232,7 +232,7 @@
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T22:00:00+02:00",
+      "bar_time": "2026-08-19T00:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -287,8 +287,8 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.42,
-      "pct_change": 0.3924,
+      "close": 84.45,
+      "pct_change": 0.0355,
       "direction": "BUY",
       "score": 4,
       "total": 9,
@@ -296,7 +296,7 @@
       "sell_count": 2,
       "tier": "WEAK",
       "tier_emoji": "🟡",
-      "bar_time": "2026-08-18T22:00:00+02:00",
+      "bar_time": "2026-08-19T00:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -351,8 +351,8 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4389.5,
-      "pct_change": -0.2386,
+      "close": 4386.7998,
+      "pct_change": -0.0615,
       "direction": "SELL",
       "score": 7,
       "total": 9,
@@ -360,7 +360,7 @@
       "sell_count": 7,
       "tier": "STRONG",
       "tier_emoji": "🔴",
-      "bar_time": "2026-08-18T22:00:00+02:00",
+      "bar_time": "2026-08-19T00:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -428,13 +428,13 @@
     "level": "NORMAL",
     "emoji": "🟢",
     "percentile": 25.7,
-    "change_1d": -0.14,
+    "change_1d": -0.141,
     "change_5d": -0.29,
     "components": [
       {
         "label": "Gasoline futures",
-        "change": -11.006,
-        "z": -1.024,
+        "change": -11.05,
+        "z": -1.028,
         "units": "%"
       },
       {
@@ -457,8 +457,8 @@
       },
       {
         "label": "WTI crude",
-        "change": 1.478,
-        "z": 0.054,
+        "change": 1.502,
+        "z": 0.056,
         "units": "%"
       }
     ],
@@ -491,19 +491,24 @@
     "earnings": [],
     "headlines": [
       {
-        "when": "19 Aug 00:27",
+        "when": "19 Aug 00:48",
         "source": "Investor's Business Daily",
         "title": "Dow Jones Futures: Sandisk, Micron, Credo Lead Painful AI Losses; Market Rally Near Key Test"
       },
       {
-        "when": "19 Aug 00:02",
-        "source": "Motley Fool",
-        "title": "XOP vs. EMLP: Should You Buy a Low-Cost Oil Fund or Higher-Yield Infrastructure ETF?"
+        "when": "19 Aug 00:41",
+        "source": "Reuters Videos",
+        "title": "Tech selloff weighs down Wall Street as bond yields climb"
       },
       {
-        "when": "18 Aug 23:24",
-        "source": "Motley Fool",
-        "title": "Stock Market Today, Aug. 18: CoreWeave Falls as Debt-Financing Concerns and Capital Spending Pressures Rise With Interest Rates"
+        "when": "19 Aug 00:25",
+        "source": "24/7 Wall St.",
+        "title": "A 4X S&P 500 ETN Now Exists. A 10% Market Drop Cuts It Nearly in Half and Investors Are Buying Anyway"
+      },
+      {
+        "when": "18 Aug 23:35",
+        "source": "Stocktwits",
+        "title": "US Stocks End Third Session Lower As Higher Treasury Yields, Oil Prices Weigh — BABA, AAPL, GRRR, KLAR, CRWD In Focus"
       },
       {
         "when": "18 Aug 23:04",
@@ -516,19 +521,14 @@
         "title": "Update: Technology Leads US Equity Indexes Lower as 30-Year Yield Touches 19-Year High, Crude Oil Extends Gains"
       },
       {
-        "when": "18 Aug 22:48",
-        "source": "Reuters",
-        "title": "Tech selloff weighs down Wall Street as bond yields climb"
-      },
-      {
-        "when": "18 Aug 22:42",
-        "source": "Reuters",
-        "title": "Nasdaq slides, yields elevated as Mideast conflict fears grow"
-      },
-      {
         "when": "18 Aug 21:24",
         "source": "GuruFocus.com",
         "title": "Bank of America Says $5,000 Gold Is Within Reach"
+      },
+      {
+        "when": "18 Aug 20:51",
+        "source": "The Wall Street Journal",
+        "title": "Precious Metals Drop Amid Bond Selloff"
       }
     ],
     "anomalies": [
