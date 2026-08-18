@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-18T19:20:17.436295+00:00",
+  "generated_at": "2026-08-18T19:34:11.918113+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -31,8 +31,8 @@
       "ticker": "^GSPC",
       "group": "SPX",
       "kind": "spot",
-      "close": 7703.73,
-      "pct_change": 0.0096,
+      "close": 7699.9199,
+      "pct_change": -0.0495,
       "direction": "SELL",
       "score": 6,
       "total": 9,
@@ -40,7 +40,7 @@
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T19:30:00+02:00",
+      "bar_time": "2026-08-18T20:30:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -159,16 +159,16 @@
       "ticker": "^NDX",
       "group": "US100",
       "kind": "spot",
-      "close": 29508.3145,
-      "pct_change": -0.0498,
+      "close": 29503.918,
+      "pct_change": -0.0149,
       "direction": "SELL",
-      "score": 6,
+      "score": 5,
       "total": 9,
       "buy_count": 1,
-      "sell_count": 6,
+      "sell_count": 5,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T19:30:00+02:00",
+      "bar_time": "2026-08-18T20:30:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -214,7 +214,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": -1
+          "vote": 0
         }
       ]
     },
@@ -423,47 +423,7 @@
     "direction": "FALLING",
     "asof": "2026-08-18T00:00:00"
   },
-  "pressure": {
-    "value": -0.367,
-    "level": "NORMAL",
-    "emoji": "🟢",
-    "percentile": 29.4,
-    "change_1d": -0.212,
-    "change_5d": -0.284,
-    "components": [
-      {
-        "label": "Gasoline futures",
-        "change": -11.045,
-        "z": -1.027,
-        "units": "%"
-      },
-      {
-        "label": "VIX",
-        "change": -15.979,
-        "z": -0.748,
-        "units": "%"
-      },
-      {
-        "label": "S&P 500",
-        "change": 3.413,
-        "z": -0.548,
-        "units": "%"
-      },
-      {
-        "label": "10y Treasury yield",
-        "change": 0.108,
-        "z": 0.465,
-        "units": "pp"
-      },
-      {
-        "label": "WTI crude",
-        "change": 1.129,
-        "z": 0.022,
-        "units": "%"
-      }
-    ],
-    "missing": []
-  },
+  "pressure": null,
   "events": {
     "macro": [
       {
@@ -491,6 +451,21 @@
     "earnings": [],
     "headlines": [
       {
+        "when": "18 Aug 21:25",
+        "source": "Investor's Business Daily",
+        "title": "Stock Market Today: Nasdaq Hit Hard By Chip Names; Sandisk, Micron Slide As Biotech Soars (Live Coverage)"
+      },
+      {
+        "when": "18 Aug 21:24",
+        "source": "GuruFocus.com",
+        "title": "Bank of America Says $5,000 Gold Is Within Reach"
+      },
+      {
+        "when": "18 Aug 21:15",
+        "source": "Motley Fool",
+        "title": "Meet the Dividend King That's Quietly Crushing the S&P 500 in 2026. Here's Why It's a Buy This August."
+      },
+      {
         "when": "18 Aug 21:07",
         "source": "The Wall Street Journal",
         "title": "Oil Posts Modest Gains With Strait of Hormuz Situation Unclear"
@@ -514,26 +489,11 @@
         "when": "18 Aug 20:51",
         "source": "The Wall Street Journal",
         "title": "Precious Metals Drop Amid Bond Selloff"
-      },
-      {
-        "when": "18 Aug 20:03",
-        "source": "MT Newswires",
-        "title": "Update: Equities Fall, Oil Rises as Trump Says US Not in Talks With Iran"
-      },
-      {
-        "when": "18 Aug 18:03",
-        "source": "TheStreet",
-        "title": "Wells Fargo revamps gold price target for the rest of 2026"
-      },
-      {
-        "when": "18 Aug 18:00",
-        "source": "Yahoo Finance Video",
-        "title": "Gold can be a great inflation hedge, but sometimes it's not: AlphaSpace breakdown"
       }
     ],
     "anomalies": [
       "S&P 500 Index: hourly ranges 2.0x tighter than the past 10 days — coiled, watch for a break",
-      "Nasdaq 100 Index: hourly ranges 1.8x tighter than the past 10 days — coiled, watch for a break"
+      "Nasdaq 100 Index: hourly ranges 1.9x tighter than the past 10 days — coiled, watch for a break"
     ],
     "notes": []
   }
