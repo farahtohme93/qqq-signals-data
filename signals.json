@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-18T17:35:39.482433+00:00",
+  "generated_at": "2026-08-18T18:50:43.053942+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -31,8 +31,8 @@
       "ticker": "^GSPC",
       "group": "SPX",
       "kind": "spot",
-      "close": 7702.9902,
-      "pct_change": 0.0099,
+      "close": 7703.73,
+      "pct_change": 0.0096,
       "direction": "SELL",
       "score": 6,
       "total": 9,
@@ -40,7 +40,7 @@
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T18:30:00+02:00",
+      "bar_time": "2026-08-18T19:30:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -95,16 +95,16 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7726.0,
-      "pct_change": 0.0356,
+      "close": 7716.0,
+      "pct_change": -0.1294,
       "direction": "SELL",
       "score": 5,
       "total": 9,
-      "buy_count": 2,
+      "buy_count": 3,
       "sell_count": 5,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T18:00:00+02:00",
+      "bar_time": "2026-08-18T19:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -120,7 +120,7 @@
         {
           "key": "rsi_bars",
           "label": "RSI bars (OB/OS)",
-          "vote": 0
+          "vote": 1
         },
         {
           "key": "squeeze_momentum",
@@ -159,8 +159,8 @@
       "ticker": "^NDX",
       "group": "US100",
       "kind": "spot",
-      "close": 29523.0156,
-      "pct_change": 0.0139,
+      "close": 29508.3145,
+      "pct_change": -0.0498,
       "direction": "SELL",
       "score": 6,
       "total": 9,
@@ -168,7 +168,7 @@
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T18:30:00+02:00",
+      "bar_time": "2026-08-18T19:30:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -223,16 +223,16 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29649.75,
-      "pct_change": 0.043,
+      "close": 29565.75,
+      "pct_change": -0.2833,
       "direction": "SELL",
       "score": 6,
       "total": 9,
-      "buy_count": 1,
+      "buy_count": 2,
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T18:00:00+02:00",
+      "bar_time": "2026-08-18T19:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -248,7 +248,7 @@
         {
           "key": "rsi_bars",
           "label": "RSI bars (OB/OS)",
-          "vote": 0
+          "vote": 1
         },
         {
           "key": "squeeze_momentum",
@@ -287,8 +287,8 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.21,
-      "pct_change": -0.602,
+      "close": 84.05,
+      "pct_change": -0.19,
       "direction": "BUY",
       "score": 3,
       "total": 9,
@@ -296,7 +296,7 @@
       "sell_count": 2,
       "tier": "WEAK",
       "tier_emoji": "🟡",
-      "bar_time": "2026-08-18T18:00:00+02:00",
+      "bar_time": "2026-08-18T19:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -351,8 +351,8 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4419.0,
-      "pct_change": -0.0272,
+      "close": 4413.2002,
+      "pct_change": -0.1312,
       "direction": "SELL",
       "score": 6,
       "total": 9,
@@ -360,7 +360,7 @@
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-18T18:00:00+02:00",
+      "bar_time": "2026-08-18T19:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -440,34 +440,29 @@
     "earnings": [],
     "headlines": [
       {
-        "when": "18 Aug 19:15",
-        "source": "MT Newswires",
-        "title": "Exchange-Traded Funds Lower as US Equities Decline After Midday"
+        "when": "18 Aug 20:35",
+        "source": "24/7 Wall St.",
+        "title": "QuantumScape Falls 6%, Enovix Sinks 14%, Solid Power Drops 4% as Yields at 19-Year Highs Hit Speculative Growth"
       },
       {
-        "when": "18 Aug 19:01",
-        "source": "Reuters",
-        "title": "Oil inches up as US-Iran peace deal fades"
-      },
-      {
-        "when": "18 Aug 18:52",
-        "source": "MT Newswires",
-        "title": "Update: US Equity Indexes Fall as 30-Year Yield Remains Elevated, Crude Oil Jumps"
-      },
-      {
-        "when": "18 Aug 18:45",
+        "when": "18 Aug 20:29",
         "source": "StockStory",
-        "title": "StepStone Group (STEP): Buy, Sell, or Hold Post Q2 Earnings?"
+        "title": "First Commonwealth Financial (FCF): Buy, Sell, or Hold Post Q2 Earnings?"
       },
       {
-        "when": "18 Aug 18:14",
-        "source": "PA Media: Money",
-        "title": "FTSE 100 holds modest gains with oil stocks up amid rising prices"
+        "when": "18 Aug 20:03",
+        "source": "MT Newswires",
+        "title": "Update: Equities Fall, Oil Rises as Trump Says US Not in Talks With Iran"
       },
       {
-        "when": "18 Aug 18:13",
-        "source": "Reuters",
-        "title": "STOXX 600 drops to two-week low on higher bond yields, Middle East uncertainty"
+        "when": "18 Aug 19:45",
+        "source": "MT Newswires",
+        "title": "Update: Technology Pushes US Equity Indexes Lower as 30-Year Yield Touches 19-Year High, Crude Oil Rises"
+      },
+      {
+        "when": "18 Aug 19:35",
+        "source": "Investor's Business Daily",
+        "title": "Stock Market Today: Nasdaq Weighed Down By Chip Names; Credo Plunges With Micron, Sandisk (Live Coverage)"
       },
       {
         "when": "18 Aug 18:03",
@@ -475,13 +470,18 @@
         "title": "Wells Fargo revamps gold price target for the rest of 2026"
       },
       {
-        "when": "18 Aug 18:02",
-        "source": "Investor's Business Daily",
-        "title": "Stock Market Today: Nasdaq Retreats As Chipmakers Sell Off; Micron, Sandisk And A Fintech Fall (Live Coverage)"
+        "when": "18 Aug 18:00",
+        "source": "Yahoo Finance Video",
+        "title": "Gold can be a great inflation hedge, but sometimes it's not: AlphaSpace breakdown"
+      },
+      {
+        "when": "18 Aug 18:00",
+        "source": "Proactive",
+        "title": "Domestic Metals CEO Gordon Neal brings a billion-dollar track record to Smart Creek"
       }
     ],
     "anomalies": [
-      "S&P 500 Index: hourly ranges 1.9x tighter than the past 10 days — coiled, watch for a break",
+      "S&P 500 Index: hourly ranges 2.0x tighter than the past 10 days — coiled, watch for a break",
       "Nasdaq 100 Index: hourly ranges 1.8x tighter than the past 10 days — coiled, watch for a break"
     ],
     "notes": []
