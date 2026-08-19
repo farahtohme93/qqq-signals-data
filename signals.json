@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-19T05:38:10.134757+00:00",
+  "generated_at": "2026-08-19T06:58:30.878555+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -95,8 +95,8 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7704.25,
-      "pct_change": -0.0324,
+      "close": 7699.75,
+      "pct_change": -0.0584,
       "direction": "SELL",
       "score": 6,
       "total": 9,
@@ -104,7 +104,7 @@
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T06:00:00+02:00",
+      "bar_time": "2026-08-19T07:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -223,16 +223,16 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29506.0,
-      "pct_change": -0.0737,
+      "close": 29457.5,
+      "pct_change": -0.1644,
       "direction": "SELL",
-      "score": 5,
+      "score": 4,
       "total": 9,
       "buy_count": 3,
-      "sell_count": 5,
-      "tier": "MODERATE",
-      "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T06:00:00+02:00",
+      "sell_count": 4,
+      "tier": "WEAK",
+      "tier_emoji": "🟡",
+      "bar_time": "2026-08-19T07:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -278,7 +278,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": -1
+          "vote": 0
         }
       ]
     },
@@ -287,8 +287,8 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.61,
-      "pct_change": -0.0827,
+      "close": 84.77,
+      "pct_change": 0.1891,
       "direction": "BUY",
       "score": 5,
       "total": 9,
@@ -296,7 +296,7 @@
       "sell_count": 1,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T06:00:00+02:00",
+      "bar_time": "2026-08-19T07:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -351,16 +351,16 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4401.7998,
-      "pct_change": -0.1633,
+      "close": 4389.0,
+      "pct_change": -0.2908,
       "direction": "SELL",
-      "score": 5,
+      "score": 6,
       "total": 9,
-      "buy_count": 2,
-      "sell_count": 5,
+      "buy_count": 1,
+      "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T06:00:00+02:00",
+      "bar_time": "2026-08-19T07:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -396,7 +396,7 @@
         {
           "key": "macd",
           "label": "MACD",
-          "vote": 1
+          "vote": -1
         },
         {
           "key": "bollinger",
@@ -424,23 +424,17 @@
     "asof": "2026-08-18T00:00:00"
   },
   "pressure": {
-    "value": -0.433,
+    "value": -0.361,
     "level": "NORMAL",
     "emoji": "🟢",
-    "percentile": 24.3,
-    "change_1d": -0.146,
-    "change_5d": -0.283,
+    "percentile": 28.6,
+    "change_1d": -0.107,
+    "change_5d": -0.211,
     "components": [
       {
         "label": "Gasoline futures",
-        "change": -11.336,
-        "z": -1.051,
-        "units": "%"
-      },
-      {
-        "label": "S&P 500",
-        "change": 4.054,
-        "z": -0.693,
+        "change": -11.433,
+        "z": -1.059,
         "units": "%"
       },
       {
@@ -450,9 +444,15 @@
         "units": "%"
       },
       {
+        "label": "S&P 500",
+        "change": 2.431,
+        "z": -0.325,
+        "units": "%"
+      },
+      {
         "label": "WTI crude",
-        "change": -0.294,
-        "z": -0.107,
+        "change": -0.306,
+        "z": -0.108,
         "units": "%"
       },
       {
@@ -491,6 +491,21 @@
     "earnings": [],
     "headlines": [
       {
+        "when": "19 Aug 08:45",
+        "source": "Reuters",
+        "title": "Oil extends climb on prolonged Hormuz export uncertainty"
+      },
+      {
+        "when": "19 Aug 08:04",
+        "source": "Benzinga Prediction Markets",
+        "title": "Stock Market: Will S&P 500 Open Up or Down Today?"
+      },
+      {
+        "when": "19 Aug 07:40",
+        "source": "Oilprice.com",
+        "title": "Oil Prices Rise for Fourth Day as Hormuz Traffic Slows"
+      },
+      {
         "when": "19 Aug 05:17",
         "source": "Stocktwits",
         "title": "Dow, S&P 500, Nasdaq Futures Slip As Global Bond Rout Catches Up With Markets: LUNR, MSTR, WYFI, AMLX Stocks In Focus"
@@ -503,7 +518,7 @@
       {
         "when": "19 Aug 05:05",
         "source": "Associated Press",
-        "title": "Shares fall in Asia, with Kospi down 5.2%, while oil prices jump"
+        "title": "Shares fall in Asia, with Kospi down 5.7%, while oil prices jump"
       },
       {
         "when": "19 Aug 04:30",
@@ -511,24 +526,9 @@
         "title": "Indian shares set for muted start as higher oil prices, Treasury yields weigh"
       },
       {
-        "when": "19 Aug 04:15",
-        "source": "Reuters",
-        "title": "Rupee may slip on oil, risk-off mood; RBI once again expected to ride to rescue"
-      },
-      {
-        "when": "19 Aug 04:12",
-        "source": "Simply Wall St.",
-        "title": "Marathon Petroleum (MPC) Is Up 8.9% After Near Record Refinery Utilization and Strong Margins - What's Changed"
-      },
-      {
         "when": "19 Aug 03:04",
         "source": "GuruFocus.com",
         "title": "Erdene Resource Development Corp (ERDCF) (Q2 2026) Earnings Call Highlights: Record Production ..."
-      },
-      {
-        "when": "19 Aug 03:04",
-        "source": "GuruFocus.com",
-        "title": "Thor Explorations Ltd (THXPF) (Q2 2026) Earnings Call Highlights: Record Cash Generation and ..."
       }
     ],
     "anomalies": [
