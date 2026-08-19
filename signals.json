@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-19T06:58:30.878555+00:00",
+  "generated_at": "2026-08-19T07:47:49.131233+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -95,16 +95,16 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7699.75,
-      "pct_change": -0.0584,
+      "close": 7714.5,
+      "pct_change": 0.1916,
       "direction": "SELL",
       "score": 6,
       "total": 9,
-      "buy_count": 2,
+      "buy_count": 1,
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T07:00:00+02:00",
+      "bar_time": "2026-08-19T08:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -120,7 +120,7 @@
         {
           "key": "rsi_bars",
           "label": "RSI bars (OB/OS)",
-          "vote": 1
+          "vote": 0
         },
         {
           "key": "squeeze_momentum",
@@ -223,16 +223,16 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29457.5,
-      "pct_change": -0.1644,
+      "close": 29559.75,
+      "pct_change": 0.3471,
       "direction": "SELL",
-      "score": 4,
+      "score": 5,
       "total": 9,
-      "buy_count": 3,
-      "sell_count": 4,
-      "tier": "WEAK",
-      "tier_emoji": "🟡",
-      "bar_time": "2026-08-19T07:00:00+02:00",
+      "buy_count": 2,
+      "sell_count": 5,
+      "tier": "MODERATE",
+      "tier_emoji": "🟠",
+      "bar_time": "2026-08-19T08:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -248,7 +248,7 @@
         {
           "key": "rsi_bars",
           "label": "RSI bars (OB/OS)",
-          "vote": 1
+          "vote": 0
         },
         {
           "key": "squeeze_momentum",
@@ -278,7 +278,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": 0
+          "vote": -1
         }
       ]
     },
@@ -287,16 +287,16 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.77,
-      "pct_change": 0.1891,
+      "close": 84.54,
+      "pct_change": -0.2713,
       "direction": "BUY",
-      "score": 5,
+      "score": 4,
       "total": 9,
-      "buy_count": 5,
-      "sell_count": 1,
-      "tier": "MODERATE",
-      "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T07:00:00+02:00",
+      "buy_count": 4,
+      "sell_count": 2,
+      "tier": "WEAK",
+      "tier_emoji": "🟡",
+      "bar_time": "2026-08-19T08:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -322,7 +322,7 @@
         {
           "key": "accum_dist",
           "label": "Accum/Dist",
-          "vote": 1
+          "vote": -1
         },
         {
           "key": "ema_cross",
@@ -351,16 +351,16 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4389.0,
-      "pct_change": -0.2908,
+      "close": 4402.8999,
+      "pct_change": 0.3167,
       "direction": "SELL",
-      "score": 6,
+      "score": 5,
       "total": 9,
-      "buy_count": 1,
-      "sell_count": 6,
+      "buy_count": 2,
+      "sell_count": 5,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T07:00:00+02:00",
+      "bar_time": "2026-08-19T08:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -396,7 +396,7 @@
         {
           "key": "macd",
           "label": "MACD",
-          "vote": -1
+          "vote": 1
         },
         {
           "key": "bollinger",
@@ -424,17 +424,17 @@
     "asof": "2026-08-18T00:00:00"
   },
   "pressure": {
-    "value": -0.361,
+    "value": -0.349,
     "level": "NORMAL",
     "emoji": "🟢",
-    "percentile": 28.6,
-    "change_1d": -0.107,
-    "change_5d": -0.211,
+    "percentile": 30.3,
+    "change_1d": -0.131,
+    "change_5d": -0.231,
     "components": [
       {
         "label": "Gasoline futures",
-        "change": -11.433,
-        "z": -1.059,
+        "change": -11.897,
+        "z": -1.098,
         "units": "%"
       },
       {
@@ -450,16 +450,16 @@
         "units": "%"
       },
       {
-        "label": "WTI crude",
-        "change": -0.306,
-        "z": -0.108,
-        "units": "%"
-      },
-      {
         "label": "10y Treasury yield",
         "change": 0.078,
-        "z": 0.078,
+        "z": 0.206,
         "units": "pp"
+      },
+      {
+        "label": "WTI crude",
+        "change": -0.636,
+        "z": -0.138,
+        "units": "%"
       }
     ],
     "missing": []
@@ -491,6 +491,11 @@
     "earnings": [],
     "headlines": [
       {
+        "when": "19 Aug 09:36",
+        "source": "Reuters Videos",
+        "title": "Why are bond yields surging, and why does it matter?"
+      },
+      {
         "when": "19 Aug 08:45",
         "source": "Reuters",
         "title": "Oil extends climb on prolonged Hormuz export uncertainty"
@@ -521,11 +526,6 @@
         "title": "Shares fall in Asia, with Kospi down 5.7%, while oil prices jump"
       },
       {
-        "when": "19 Aug 04:30",
-        "source": "Reuters",
-        "title": "Indian shares set for muted start as higher oil prices, Treasury yields weigh"
-      },
-      {
         "when": "19 Aug 03:04",
         "source": "GuruFocus.com",
         "title": "Erdene Resource Development Corp (ERDCF) (Q2 2026) Earnings Call Highlights: Record Production ..."
@@ -533,7 +533,9 @@
     ],
     "anomalies": [
       "S&P 500 Index: hourly ranges 2.0x tighter than the past 10 days — coiled, watch for a break",
-      "Nasdaq 100 Index: hourly ranges 1.9x tighter than the past 10 days — coiled, watch for a break"
+      "S&P 500 E-mini Future: last bar moved +0.19%, 2.2x its recent hourly volatility",
+      "Nasdaq 100 Index: hourly ranges 1.9x tighter than the past 10 days — coiled, watch for a break",
+      "Nasdaq 100 E-mini Future: last bar moved +0.35%, 2.0x its recent hourly volatility"
     ],
     "notes": []
   }
