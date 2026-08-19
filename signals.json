@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-18T23:29:39.815683+00:00",
+  "generated_at": "2026-08-19T01:46:15.844061+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -95,8 +95,8 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7707.75,
-      "pct_change": -0.0713,
+      "close": 7711.0,
+      "pct_change": 0.0032,
       "direction": "SELL",
       "score": 5,
       "total": 9,
@@ -104,7 +104,7 @@
       "sell_count": 5,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T00:00:00+02:00",
+      "bar_time": "2026-08-19T02:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -223,16 +223,16 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29519.5,
-      "pct_change": -0.1353,
+      "close": 29539.25,
+      "pct_change": 0.0364,
       "direction": "SELL",
-      "score": 6,
+      "score": 5,
       "total": 9,
-      "buy_count": 2,
-      "sell_count": 6,
+      "buy_count": 3,
+      "sell_count": 5,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T00:00:00+02:00",
+      "bar_time": "2026-08-19T02:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -268,7 +268,7 @@
         {
           "key": "macd",
           "label": "MACD",
-          "vote": -1
+          "vote": 1
         },
         {
           "key": "bollinger",
@@ -287,16 +287,16 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.45,
-      "pct_change": 0.0355,
+      "close": 84.75,
+      "pct_change": 0.2959,
       "direction": "BUY",
-      "score": 4,
+      "score": 5,
       "total": 9,
-      "buy_count": 4,
+      "buy_count": 5,
       "sell_count": 2,
-      "tier": "WEAK",
-      "tier_emoji": "🟡",
-      "bar_time": "2026-08-19T00:00:00+02:00",
+      "tier": "MODERATE",
+      "tier_emoji": "🟠",
+      "bar_time": "2026-08-19T02:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -342,7 +342,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": 0
+          "vote": 1
         }
       ]
     },
@@ -351,16 +351,16 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4386.7998,
-      "pct_change": -0.0615,
+      "close": 4391.7998,
+      "pct_change": 0.1322,
       "direction": "SELL",
-      "score": 7,
+      "score": 6,
       "total": 9,
       "buy_count": 2,
-      "sell_count": 7,
-      "tier": "STRONG",
-      "tier_emoji": "🔴",
-      "bar_time": "2026-08-19T00:00:00+02:00",
+      "sell_count": 6,
+      "tier": "MODERATE",
+      "tier_emoji": "🟠",
+      "bar_time": "2026-08-19T02:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -401,7 +401,7 @@
         {
           "key": "bollinger",
           "label": "Bollinger",
-          "vote": -1
+          "vote": 0
         },
         {
           "key": "smart_money",
@@ -424,17 +424,17 @@
     "asof": "2026-08-18T00:00:00"
   },
   "pressure": {
-    "value": -0.405,
+    "value": -0.39,
     "level": "NORMAL",
     "emoji": "🟢",
-    "percentile": 25.7,
-    "change_1d": -0.141,
-    "change_5d": -0.29,
+    "percentile": 26.3,
+    "change_1d": -0.126,
+    "change_5d": -0.276,
     "components": [
       {
         "label": "Gasoline futures",
-        "change": -11.05,
-        "z": -1.028,
+        "change": -10.696,
+        "z": -0.998,
         "units": "%"
       },
       {
@@ -457,8 +457,8 @@
       },
       {
         "label": "WTI crude",
-        "change": 1.502,
-        "z": 0.056,
+        "change": 1.982,
+        "z": 0.1,
         "units": "%"
       }
     ],
@@ -491,44 +491,44 @@
     "earnings": [],
     "headlines": [
       {
-        "when": "19 Aug 00:48",
+        "when": "19 Aug 03:34",
         "source": "Investor's Business Daily",
         "title": "Dow Jones Futures: Sandisk, Micron, Credo Lead Painful AI Losses; Market Rally Near Key Test"
+      },
+      {
+        "when": "19 Aug 03:04",
+        "source": "GuruFocus.com",
+        "title": "Erdene Resource Development Corp (ERDCF) (Q2 2026) Earnings Call Highlights: Record Production ..."
+      },
+      {
+        "when": "19 Aug 03:04",
+        "source": "GuruFocus.com",
+        "title": "Thor Explorations Ltd (THXPF) (Q2 2026) Earnings Call Highlights: Record Cash Generation and ..."
+      },
+      {
+        "when": "19 Aug 03:02",
+        "source": "GuruFocus.com",
+        "title": "Contango Silver & Gold Inc (CTGO) (Q2 2026) Earnings Call Highlights: Unhedged and Poised ..."
+      },
+      {
+        "when": "19 Aug 02:39",
+        "source": "Reuters",
+        "title": "Oil edges up on uncertainty over exports through Hormuz"
+      },
+      {
+        "when": "19 Aug 02:26",
+        "source": "The Wall Street Journal",
+        "title": "Oil Rises Amid Growing Concerns Over Supply Disruptions"
+      },
+      {
+        "when": "19 Aug 01:45",
+        "source": "The Fiscal Times",
+        "title": "30-Year Treasury Yield Touches a 19-Year High as US Debt Approaches $40 Trillion"
       },
       {
         "when": "19 Aug 00:41",
         "source": "Reuters Videos",
         "title": "Tech selloff weighs down Wall Street as bond yields climb"
-      },
-      {
-        "when": "19 Aug 00:25",
-        "source": "24/7 Wall St.",
-        "title": "A 4X S&P 500 ETN Now Exists. A 10% Market Drop Cuts It Nearly in Half and Investors Are Buying Anyway"
-      },
-      {
-        "when": "18 Aug 23:35",
-        "source": "Stocktwits",
-        "title": "US Stocks End Third Session Lower As Higher Treasury Yields, Oil Prices Weigh — BABA, AAPL, GRRR, KLAR, CRWD In Focus"
-      },
-      {
-        "when": "18 Aug 23:04",
-        "source": "Motley Fool",
-        "title": "Sprott Gold Miners ETF vs Global X Silver Miners ETF: Which Is the Best Fund to Profit from the Historic Metals Bull Run?"
-      },
-      {
-        "when": "18 Aug 22:59",
-        "source": "MT Newswires",
-        "title": "Update: Technology Leads US Equity Indexes Lower as 30-Year Yield Touches 19-Year High, Crude Oil Extends Gains"
-      },
-      {
-        "when": "18 Aug 21:24",
-        "source": "GuruFocus.com",
-        "title": "Bank of America Says $5,000 Gold Is Within Reach"
-      },
-      {
-        "when": "18 Aug 20:51",
-        "source": "The Wall Street Journal",
-        "title": "Precious Metals Drop Amid Bond Selloff"
       }
     ],
     "anomalies": [
