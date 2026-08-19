@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-19T11:33:35.123112+00:00",
+  "generated_at": "2026-08-19T13:02:49.100560+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -95,16 +95,16 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7713.5,
-      "pct_change": 0.0,
+      "close": 7718.0,
+      "pct_change": 0.0583,
       "direction": "SELL",
-      "score": 6,
+      "score": 4,
       "total": 9,
-      "buy_count": 1,
-      "sell_count": 6,
-      "tier": "MODERATE",
-      "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T12:00:00+02:00",
+      "buy_count": 2,
+      "sell_count": 4,
+      "tier": "WEAK",
+      "tier_emoji": "🟡",
+      "bar_time": "2026-08-19T13:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -125,7 +125,7 @@
         {
           "key": "squeeze_momentum",
           "label": "Squeeze Momentum",
-          "vote": -1
+          "vote": 1
         },
         {
           "key": "accum_dist",
@@ -150,7 +150,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": -1
+          "vote": 0
         }
       ]
     },
@@ -223,16 +223,16 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29521.0,
-      "pct_change": -0.1108,
+      "close": 29536.0,
+      "pct_change": 0.0508,
       "direction": "SELL",
-      "score": 6,
+      "score": 5,
       "total": 9,
       "buy_count": 1,
-      "sell_count": 6,
+      "sell_count": 5,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T12:00:00+02:00",
+      "bar_time": "2026-08-19T13:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -278,7 +278,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": -1
+          "vote": 0
         }
       ]
     },
@@ -287,16 +287,16 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.91,
-      "pct_change": -0.1294,
+      "close": 84.65,
+      "pct_change": -0.3062,
       "direction": "BUY",
-      "score": 7,
+      "score": 5,
       "total": 9,
-      "buy_count": 7,
-      "sell_count": 0,
-      "tier": "STRONG",
-      "tier_emoji": "🔴",
-      "bar_time": "2026-08-19T12:00:00+02:00",
+      "buy_count": 5,
+      "sell_count": 1,
+      "tier": "MODERATE",
+      "tier_emoji": "🟠",
+      "bar_time": "2026-08-19T13:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -332,7 +332,7 @@
         {
           "key": "macd",
           "label": "MACD",
-          "vote": 1
+          "vote": -1
         },
         {
           "key": "bollinger",
@@ -342,7 +342,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": 1
+          "vote": 0
         }
       ]
     },
@@ -351,16 +351,16 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4422.2002,
-      "pct_change": 0.1313,
+      "close": 4419.1001,
+      "pct_change": -0.0701,
       "direction": "BUY",
-      "score": 4,
+      "score": 3,
       "total": 9,
-      "buy_count": 4,
+      "buy_count": 3,
       "sell_count": 2,
       "tier": "WEAK",
       "tier_emoji": "🟡",
-      "bar_time": "2026-08-19T12:00:00+02:00",
+      "bar_time": "2026-08-19T13:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -371,7 +371,7 @@
         {
           "key": "rsi_trend",
           "label": "RSI trend",
-          "vote": 1
+          "vote": 0
         },
         {
           "key": "rsi_bars",
@@ -381,12 +381,12 @@
         {
           "key": "squeeze_momentum",
           "label": "Squeeze Momentum",
-          "vote": -1
+          "vote": 1
         },
         {
           "key": "accum_dist",
           "label": "Accum/Dist",
-          "vote": 1
+          "vote": -1
         },
         {
           "key": "ema_cross",
@@ -415,32 +415,32 @@
   "yields": {
     "name": "US 10-year Treasury yield",
     "ticker": "^TNX",
-    "level": 4.706,
-    "change_bp": -1.8,
-    "change_5d_bp": 2.2,
-    "change_20d_bp": 7.8,
-    "sigma_mult": 0.46,
+    "level": 4.645,
+    "change_bp": -6.1,
+    "change_5d_bp": -3.7,
+    "change_20d_bp": -1.2,
+    "sigma_mult": 1.54,
     "direction": "FALLING",
-    "asof": "2026-08-18T00:00:00"
+    "asof": "2026-08-19T00:00:00"
   },
   "pressure": {
-    "value": -0.364,
+    "value": -0.514,
     "level": "NORMAL",
     "emoji": "🟢",
-    "percentile": 28.1,
-    "change_1d": -0.11,
-    "change_5d": -0.214,
+    "percentile": 20.0,
+    "change_1d": -0.26,
+    "change_5d": -0.364,
     "components": [
       {
         "label": "Gasoline futures",
-        "change": -11.421,
-        "z": -1.058,
+        "change": -11.915,
+        "z": -1.099,
         "units": "%"
       },
       {
         "label": "VIX",
-        "change": -7.566,
-        "z": -0.409,
+        "change": -17.373,
+        "z": -0.805,
         "units": "%"
       },
       {
@@ -451,14 +451,14 @@
       },
       {
         "label": "WTI crude",
-        "change": -0.259,
-        "z": -0.104,
+        "change": -1.225,
+        "z": -0.192,
         "units": "%"
       },
       {
         "label": "10y Treasury yield",
-        "change": 0.078,
-        "z": 0.078,
+        "change": 0.017,
+        "z": -0.149,
         "units": "pp"
       }
     ],
@@ -491,44 +491,44 @@
     "earnings": [],
     "headlines": [
       {
-        "when": "19 Aug 13:17",
+        "when": "19 Aug 14:53",
         "source": "MT Newswires",
-        "title": "Bond Yields, Persian Gulf Outlooks Cap Wall Street Pre-Bell; Asia, Europe Off"
+        "title": "Update: US Equity Futures Mostly Flat Pre-Bell as Traders Await Fed Policy Meeting Minutes"
       },
       {
-        "when": "19 Aug 13:16",
+        "when": "19 Aug 14:50",
+        "source": "Motley Fool",
+        "title": "If a Stock Market Crash Is Coming, History Says This Is the Best Move Investors Can Make"
+      },
+      {
+        "when": "19 Aug 14:28",
+        "source": "Investor's Business Daily",
+        "title": "Stock Market Today: Dow Rises Ahead Of Fed Minutes; Moderna Soars On Cancer Drug News (Live Coverage)"
+      },
+      {
+        "when": "19 Aug 14:06",
         "source": "Investor's Business Daily",
         "title": "Dow Jones Futures Waver After Sandisk, Micron, Credo Lead AI Losses; Target Earnings Beat"
       },
       {
-        "when": "19 Aug 13:13",
-        "source": "The Wall Street Journal",
-        "title": "U.S. Stock Futures Flat Amid Retail Industry Earnings"
-      },
-      {
-        "when": "19 Aug 13:03",
-        "source": "24/7 Wall St.",
-        "title": "3 Energy Dividend Stocks to Buy for Big Yields in August"
-      },
-      {
-        "when": "19 Aug 13:00",
-        "source": "AFP",
-        "title": "Oil rises, stocks waver amid tech sell-off"
-      },
-      {
-        "when": "19 Aug 12:48",
+        "when": "19 Aug 14:05",
         "source": "Reuters",
-        "title": "US stock futures steady after tech slump; investors focus on Middle East tensions"
+        "title": "Oil hits three-week high on uncertainty over Hormuz"
       },
       {
-        "when": "19 Aug 12:42",
-        "source": "MT Newswires",
-        "title": "Rising Bond Yields, Sagging Tech Valuations Blunt Asian Stock Markets"
+        "when": "19 Aug 13:56",
+        "source": "24/7 Wall St.",
+        "title": "Here Are Wednesday’s Top Wall Street Analyst Research Calls: Baidu, Ciena, CME Group, Dollar Tree, Dominion, Fabrinet, Honeywell Aerospace, Klarna, Pershing Square, and More"
       },
       {
-        "when": "19 Aug 12:02",
-        "source": "MarketBeat",
-        "title": "DRDGOLD H2 Earnings Call Highlights"
+        "when": "19 Aug 13:42",
+        "source": "Reuters",
+        "title": "Wall St futures flat after tech rout; Iran tensions, retail earnings in focus"
+      },
+      {
+        "when": "19 Aug 13:42",
+        "source": "Reuters",
+        "title": "Global shocks, IPO wave could temper India's earnings-led market revival, Abakkus Investment says"
       }
     ],
     "anomalies": [
