@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-19T09:42:09.557460+00:00",
+  "generated_at": "2026-08-19T10:37:31.086922+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -95,8 +95,8 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7718.25,
-      "pct_change": -0.0032,
+      "close": 7713.5,
+      "pct_change": -0.0615,
       "direction": "SELL",
       "score": 6,
       "total": 9,
@@ -104,7 +104,7 @@
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T10:00:00+02:00",
+      "bar_time": "2026-08-19T11:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -223,16 +223,16 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29609.5,
-      "pct_change": 0.0279,
+      "close": 29553.75,
+      "pct_change": -0.1883,
       "direction": "SELL",
-      "score": 4,
+      "score": 5,
       "total": 9,
-      "buy_count": 2,
-      "sell_count": 4,
-      "tier": "WEAK",
-      "tier_emoji": "🟡",
-      "bar_time": "2026-08-19T10:00:00+02:00",
+      "buy_count": 1,
+      "sell_count": 5,
+      "tier": "MODERATE",
+      "tier_emoji": "🟠",
+      "bar_time": "2026-08-19T11:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -263,7 +263,7 @@
         {
           "key": "ema_cross",
           "label": "EMA 50/200",
-          "vote": 1
+          "vote": -1
         },
         {
           "key": "macd",
@@ -287,16 +287,16 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.98,
-      "pct_change": 0.3306,
+      "close": 85.02,
+      "pct_change": 0.0471,
       "direction": "BUY",
-      "score": 5,
+      "score": 7,
       "total": 9,
-      "buy_count": 5,
-      "sell_count": 1,
-      "tier": "MODERATE",
-      "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T10:00:00+02:00",
+      "buy_count": 7,
+      "sell_count": 0,
+      "tier": "STRONG",
+      "tier_emoji": "🔴",
+      "bar_time": "2026-08-19T11:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -332,7 +332,7 @@
         {
           "key": "macd",
           "label": "MACD",
-          "vote": -1
+          "vote": 1
         },
         {
           "key": "bollinger",
@@ -342,7 +342,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": 0
+          "vote": 1
         }
       ]
     },
@@ -351,16 +351,16 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4409.7002,
-      "pct_change": 0.0318,
-      "direction": "SELL",
-      "score": 4,
+      "close": 4416.3999,
+      "pct_change": 0.1519,
+      "direction": "BUY",
+      "score": 3,
       "total": 9,
-      "buy_count": 2,
-      "sell_count": 4,
+      "buy_count": 3,
+      "sell_count": 2,
       "tier": "WEAK",
       "tier_emoji": "🟡",
-      "bar_time": "2026-08-19T10:00:00+02:00",
+      "bar_time": "2026-08-19T11:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -371,7 +371,7 @@
         {
           "key": "rsi_trend",
           "label": "RSI trend",
-          "vote": -1
+          "vote": 0
         },
         {
           "key": "rsi_bars",
@@ -386,7 +386,7 @@
         {
           "key": "accum_dist",
           "label": "Accum/Dist",
-          "vote": -1
+          "vote": 1
         },
         {
           "key": "ema_cross",
@@ -424,17 +424,23 @@
     "asof": "2026-08-18T00:00:00"
   },
   "pressure": {
-    "value": -0.395,
+    "value": -0.417,
     "level": "NORMAL",
     "emoji": "🟢",
-    "percentile": 26.1,
-    "change_1d": -0.141,
-    "change_5d": -0.245,
+    "percentile": 26.2,
+    "change_1d": -0.218,
+    "change_5d": -0.314,
     "components": [
       {
         "label": "Gasoline futures",
-        "change": -11.16,
-        "z": -1.036,
+        "change": -11.137,
+        "z": -1.034,
+        "units": "%"
+      },
+      {
+        "label": "VIX",
+        "change": -14.853,
+        "z": -0.703,
         "units": "%"
       },
       {
@@ -444,22 +450,16 @@
         "units": "%"
       },
       {
-        "label": "VIX",
-        "change": -6.979,
-        "z": -0.385,
-        "units": "%"
+        "label": "10y Treasury yield",
+        "change": 0.078,
+        "z": 0.246,
+        "units": "pp"
       },
       {
         "label": "WTI crude",
-        "change": -0.212,
-        "z": -0.099,
+        "change": 0.2,
+        "z": -0.062,
         "units": "%"
-      },
-      {
-        "label": "10y Treasury yield",
-        "change": 0.078,
-        "z": 0.078,
-        "units": "pp"
       }
     ],
     "missing": []
@@ -491,44 +491,44 @@
     "earnings": [],
     "headlines": [
       {
+        "when": "19 Aug 12:23",
+        "source": "Investor's Business Daily",
+        "title": "Dow Jones Futures Fall; After Sandisk, Micron, Credo Lead AI Losses, Market Rally Nears Key Test"
+      },
+      {
+        "when": "19 Aug 12:02",
+        "source": "MarketBeat",
+        "title": "DRDGOLD H2 Earnings Call Highlights"
+      },
+      {
+        "when": "19 Aug 11:58",
+        "source": "Reuters",
+        "title": "Oil hits three-week high on uncertainty over Hormuz"
+      },
+      {
+        "when": "19 Aug 11:56",
+        "source": "InvestorsHub",
+        "title": "Oil Prices Extend Gains as Hormuz Tensions Persist"
+      },
+      {
+        "when": "19 Aug 11:50",
+        "source": "InvestorsHub",
+        "title": "U.S. Futures Little Changed After Semiconductor-Led Selloff: Dow Jones, S&P, Nasdaq, Wall Street"
+      },
+      {
+        "when": "19 Aug 11:37",
+        "source": "Reuters",
+        "title": "European shares muted as energy stocks gain amid Mideast jitters; Fed minutes in focus"
+      },
+      {
         "when": "19 Aug 11:20",
         "source": "Motley Fool",
         "title": "The Stock Market Is Flashing a Warning Signal So Rare It's Only Appeared Once Before. Here's What History Says Comes Next."
       },
       {
-        "when": "19 Aug 11:12",
-        "source": "Stocktwits",
-        "title": "Why Are Nasdaq, S&P 500 Futures Rising Premarket? NVDA, MU, SNDK, SKHY, CVNA Stocks In Focus"
-      },
-      {
-        "when": "19 Aug 11:08",
-        "source": "Motley Fool",
-        "title": "A Stock Market Crash Is Coming Sooner or Later. History Says Investors Who Do This One Thing Will Profit."
-      },
-      {
-        "when": "19 Aug 11:01",
-        "source": "GuruFocus.com",
-        "title": "Santos Ltd (SSLZY) (H1 2026) Earnings Call Highlights: Record Production and Strategic Progress ..."
-      },
-      {
-        "when": "19 Aug 11:01",
-        "source": "GuruFocus.com",
-        "title": "ZTO Express (Cayman) Inc (ZTO) (Q2 2026) Earnings Call Highlights: Record Profit Surge and ..."
-      },
-      {
-        "when": "19 Aug 10:39",
-        "source": "The Wall Street Journal",
-        "title": "Bonds, Chip Stocks Steady Ahead of Fed Meeting Minutes"
-      },
-      {
-        "when": "19 Aug 10:16",
-        "source": "Reuters",
-        "title": "Oil hits three-week high on uncertainty over Hormuz"
-      },
-      {
-        "when": "19 Aug 10:13",
-        "source": "Simply Wall St.",
-        "title": "US Stock Market Today: S&P 500 Futures Slip On Rising Yields And Costly Energy"
+        "when": "19 Aug 11:05",
+        "source": "Barrons.com",
+        "title": "Oil Rises on Persistent Hormuz Uncertainty"
       }
     ],
     "anomalies": [
