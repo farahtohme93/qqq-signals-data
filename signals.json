@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-19T14:42:59.965882+00:00",
+  "generated_at": "2026-08-19T15:39:27.774662+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -31,16 +31,16 @@
       "ticker": "^GSPC",
       "group": "SPX",
       "kind": "spot",
-      "close": 7719.9102,
-      "pct_change": 0.3464,
+      "close": 7730.3198,
+      "pct_change": 0.1348,
       "direction": "SELL",
-      "score": 4,
+      "score": 6,
       "total": 9,
-      "buy_count": 2,
-      "sell_count": 4,
-      "tier": "WEAK",
-      "tier_emoji": "🟡",
-      "bar_time": "2026-08-19T15:30:00+02:00",
+      "buy_count": 1,
+      "sell_count": 6,
+      "tier": "MODERATE",
+      "tier_emoji": "🟠",
+      "bar_time": "2026-08-19T16:30:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -66,7 +66,7 @@
         {
           "key": "accum_dist",
           "label": "Accum/Dist",
-          "vote": 1
+          "vote": -1
         },
         {
           "key": "ema_cross",
@@ -86,7 +86,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": 0
+          "vote": -1
         }
       ]
     },
@@ -95,16 +95,16 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7739.5,
-      "pct_change": -0.1129,
+      "close": 7761.75,
+      "pct_change": 0.2875,
       "direction": "BUY",
-      "score": 6,
+      "score": 7,
       "total": 9,
-      "buy_count": 6,
-      "sell_count": 2,
-      "tier": "MODERATE",
-      "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T15:00:00+02:00",
+      "buy_count": 7,
+      "sell_count": 1,
+      "tier": "STRONG",
+      "tier_emoji": "🔴",
+      "bar_time": "2026-08-19T16:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -150,7 +150,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": -1
+          "vote": 1
         }
       ]
     },
@@ -159,16 +159,16 @@
       "ticker": "^NDX",
       "group": "US100",
       "kind": "spot",
-      "close": 29388.0293,
-      "pct_change": -0.3654,
+      "close": 29519.0801,
+      "pct_change": 0.4459,
       "direction": "SELL",
-      "score": 5,
+      "score": 4,
       "total": 9,
       "buy_count": 2,
-      "sell_count": 5,
-      "tier": "MODERATE",
-      "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T15:30:00+02:00",
+      "sell_count": 4,
+      "tier": "WEAK",
+      "tier_emoji": "🟡",
+      "bar_time": "2026-08-19T16:30:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -184,7 +184,7 @@
         {
           "key": "rsi_bars",
           "label": "RSI bars (OB/OS)",
-          "vote": 1
+          "vote": 0
         },
         {
           "key": "squeeze_momentum",
@@ -194,7 +194,7 @@
         {
           "key": "accum_dist",
           "label": "Accum/Dist",
-          "vote": -1
+          "vote": 1
         },
         {
           "key": "ema_cross",
@@ -223,16 +223,16 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29496.5,
-      "pct_change": -0.8279,
-      "direction": "SELL",
+      "close": 29623.25,
+      "pct_change": 0.4297,
+      "direction": "BUY",
       "score": 4,
       "total": 9,
-      "buy_count": 3,
-      "sell_count": 4,
+      "buy_count": 4,
+      "sell_count": 1,
       "tier": "WEAK",
       "tier_emoji": "🟡",
-      "bar_time": "2026-08-19T15:00:00+02:00",
+      "bar_time": "2026-08-19T16:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -243,7 +243,7 @@
         {
           "key": "rsi_trend",
           "label": "RSI trend",
-          "vote": -1
+          "vote": 0
         },
         {
           "key": "rsi_bars",
@@ -258,7 +258,7 @@
         {
           "key": "accum_dist",
           "label": "Accum/Dist",
-          "vote": -1
+          "vote": 1
         },
         {
           "key": "ema_cross",
@@ -278,7 +278,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": -1
+          "vote": 0
         }
       ]
     },
@@ -287,16 +287,16 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.54,
-      "pct_change": 0.6788,
+      "close": 84.89,
+      "pct_change": 0.414,
       "direction": "BUY",
-      "score": 5,
+      "score": 6,
       "total": 9,
-      "buy_count": 5,
+      "buy_count": 6,
       "sell_count": 1,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T15:00:00+02:00",
+      "bar_time": "2026-08-19T16:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -307,7 +307,7 @@
         {
           "key": "rsi_trend",
           "label": "RSI trend",
-          "vote": 0
+          "vote": 1
         },
         {
           "key": "rsi_bars",
@@ -351,8 +351,8 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4517.7998,
-      "pct_change": 0.4782,
+      "close": 4547.0,
+      "pct_change": 0.6419,
       "direction": "BUY",
       "score": 8,
       "total": 9,
@@ -360,7 +360,7 @@
       "sell_count": 1,
       "tier": "STRONG",
       "tier_emoji": "🔴",
-      "bar_time": "2026-08-19T15:00:00+02:00",
+      "bar_time": "2026-08-19T16:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -415,51 +415,51 @@
   "yields": {
     "name": "US 10-year Treasury yield",
     "ticker": "^TNX",
-    "level": 4.651,
-    "change_bp": -5.5,
-    "change_5d_bp": -3.1,
-    "change_20d_bp": -0.6,
-    "sigma_mult": 1.39,
+    "level": 4.662,
+    "change_bp": -4.4,
+    "change_5d_bp": -2.0,
+    "change_20d_bp": 0.5,
+    "sigma_mult": 1.11,
     "direction": "FALLING",
     "asof": "2026-08-19T00:00:00"
   },
   "pressure": {
-    "value": -0.46,
+    "value": -0.531,
     "level": "NORMAL",
     "emoji": "🟢",
-    "percentile": 22.9,
-    "change_1d": -0.206,
-    "change_5d": -0.31,
+    "percentile": 18.9,
+    "change_1d": -0.312,
+    "change_5d": -0.413,
     "components": [
       {
         "label": "Gasoline futures",
-        "change": -12.167,
-        "z": -1.12,
+        "change": -11.803,
+        "z": -1.09,
         "units": "%"
       },
       {
         "label": "VIX",
-        "change": -10.264,
-        "z": -0.518,
+        "change": -18.874,
+        "z": -0.865,
         "units": "%"
       },
       {
         "label": "S&P 500",
-        "change": 2.945,
-        "z": -0.442,
+        "change": 3.798,
+        "z": -0.635,
+        "units": "%"
+      },
+      {
+        "label": "WTI crude",
+        "change": 0.495,
+        "z": -0.035,
         "units": "%"
       },
       {
         "label": "10y Treasury yield",
-        "change": 0.023,
-        "z": -0.126,
+        "change": 0.034,
+        "z": -0.028,
         "units": "pp"
-      },
-      {
-        "label": "WTI crude",
-        "change": -0.165,
-        "z": -0.095,
-        "units": "%"
       }
     ],
     "missing": []
@@ -491,19 +491,34 @@
     "earnings": [],
     "headlines": [
       {
-        "when": "19 Aug 16:20",
-        "source": "Motley Fool",
-        "title": "This Dividend King That Yields More Than 4 Times the S&P 500 Is a Buy This Month. Here's Why."
+        "when": "19 Aug 17:26",
+        "source": "StockStory",
+        "title": "CooperCompanies (COO): Buy, Sell, or Hold Post Q1 Earnings?"
       },
       {
-        "when": "19 Aug 16:17",
+        "when": "19 Aug 17:24",
+        "source": "Reuters",
+        "title": "Oil prices up 1%, near 3-week high as Middle East crisis escalates"
+      },
+      {
+        "when": "19 Aug 17:06",
+        "source": "Motley Fool",
+        "title": "Worried About a Market Crash? These 3 Stocks Beat the S&P 500 in 2008 and 2022"
+      },
+      {
+        "when": "19 Aug 16:56",
         "source": "Investor's Business Daily",
-        "title": "Stock Market Today: Dow Jumps On Treasury News; Bitcoin Rises Ahead Of White House Meet (Live Coverage)"
+        "title": "Stock Market Today: Dow Gathers Steam On Treasury News; Moderna Soars As Bitcoin Rises (Live Coverage)"
       },
       {
-        "when": "19 Aug 16:17",
-        "source": "Motley Fool",
-        "title": "Is Investing in the Total Stock Market a Better Long-Term Move Than Holding S&P 500 Index Funds?"
+        "when": "19 Aug 16:39",
+        "source": "Oilprice.com",
+        "title": "EIA Shows Crude Oil Inventories Still Rising"
+      },
+      {
+        "when": "19 Aug 16:18",
+        "source": "The Wall Street Journal",
+        "title": "Gold Up 2% Amid Weaker Dollar, Falling Bond Yields"
       },
       {
         "when": "19 Aug 16:15",
@@ -514,26 +529,13 @@
         "when": "19 Aug 16:07",
         "source": "24/7 Wall St.",
         "title": "Dividend Stocks Lost the Yield War But May Still Beat the Market"
-      },
-      {
-        "when": "19 Aug 16:05",
-        "source": "AFP",
-        "title": "Oil rises, stocks waver amid tech sell-off"
-      },
-      {
-        "when": "19 Aug 15:54",
-        "source": "Yahoo Finance",
-        "title": "15 S&P 500 stocks are up 100% or more this year — here's what they have in common"
-      },
-      {
-        "when": "19 Aug 15:30",
-        "source": "Reuters",
-        "title": "Oil hovers near three-week high on uncertainty over Hormuz"
       }
     ],
     "anomalies": [
-      "S&P 500 Index: hourly ranges 1.9x tighter than the past 10 days — coiled, watch for a break",
-      "Nasdaq 100 E-mini Future: last bar moved -0.83%, 4.5x its recent hourly volatility"
+      "S&P 500 Index: hourly ranges 1.8x tighter than the past 10 days — coiled, watch for a break",
+      "S&P 500 E-mini Future: last bar moved +0.29%, 3.2x its recent hourly volatility",
+      "Nasdaq 100 E-mini Future: last bar moved +0.43%, 2.3x its recent hourly volatility",
+      "Gold Future: last bar moved +0.64%, 2.3x its recent hourly volatility"
     ],
     "notes": []
   }
