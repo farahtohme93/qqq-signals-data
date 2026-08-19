@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-19T08:49:15.777993+00:00",
+  "generated_at": "2026-08-19T09:42:09.557460+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -95,8 +95,8 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7718.5,
-      "pct_change": 0.0519,
+      "close": 7718.25,
+      "pct_change": -0.0032,
       "direction": "SELL",
       "score": 6,
       "total": 9,
@@ -104,7 +104,7 @@
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T09:00:00+02:00",
+      "bar_time": "2026-08-19T10:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -223,16 +223,16 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29601.25,
-      "pct_change": 0.1404,
+      "close": 29609.5,
+      "pct_change": 0.0279,
       "direction": "SELL",
-      "score": 5,
+      "score": 4,
       "total": 9,
       "buy_count": 2,
-      "sell_count": 5,
-      "tier": "MODERATE",
-      "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T09:00:00+02:00",
+      "sell_count": 4,
+      "tier": "WEAK",
+      "tier_emoji": "🟡",
+      "bar_time": "2026-08-19T10:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -278,7 +278,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": -1
+          "vote": 0
         }
       ]
     },
@@ -287,8 +287,8 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.7,
-      "pct_change": 0.1893,
+      "close": 84.98,
+      "pct_change": 0.3306,
       "direction": "BUY",
       "score": 5,
       "total": 9,
@@ -296,7 +296,7 @@
       "sell_count": 1,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T09:00:00+02:00",
+      "bar_time": "2026-08-19T10:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -351,16 +351,16 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4408.2998,
-      "pct_change": 0.1226,
+      "close": 4409.7002,
+      "pct_change": 0.0318,
       "direction": "SELL",
-      "score": 5,
+      "score": 4,
       "total": 9,
       "buy_count": 2,
-      "sell_count": 5,
-      "tier": "MODERATE",
-      "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T09:00:00+02:00",
+      "sell_count": 4,
+      "tier": "WEAK",
+      "tier_emoji": "🟡",
+      "bar_time": "2026-08-19T10:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -406,7 +406,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": -1
+          "vote": 0
         }
       ]
     }
@@ -424,23 +424,17 @@
     "asof": "2026-08-18T00:00:00"
   },
   "pressure": {
-    "value": -0.476,
+    "value": -0.395,
     "level": "NORMAL",
     "emoji": "🟢",
-    "percentile": 21.8,
-    "change_1d": -0.222,
-    "change_5d": -0.326,
+    "percentile": 26.1,
+    "change_1d": -0.141,
+    "change_5d": -0.245,
     "components": [
       {
         "label": "Gasoline futures",
-        "change": -11.606,
-        "z": -1.073,
-        "units": "%"
-      },
-      {
-        "label": "VIX",
-        "change": -15.228,
-        "z": -0.718,
+        "change": -11.16,
+        "z": -1.036,
         "units": "%"
       },
       {
@@ -450,9 +444,15 @@
         "units": "%"
       },
       {
+        "label": "VIX",
+        "change": -6.979,
+        "z": -0.385,
+        "units": "%"
+      },
+      {
         "label": "WTI crude",
-        "change": -0.624,
-        "z": -0.137,
+        "change": -0.212,
+        "z": -0.099,
         "units": "%"
       },
       {
@@ -491,6 +491,36 @@
     "earnings": [],
     "headlines": [
       {
+        "when": "19 Aug 11:20",
+        "source": "Motley Fool",
+        "title": "The Stock Market Is Flashing a Warning Signal So Rare It's Only Appeared Once Before. Here's What History Says Comes Next."
+      },
+      {
+        "when": "19 Aug 11:12",
+        "source": "Stocktwits",
+        "title": "Why Are Nasdaq, S&P 500 Futures Rising Premarket? NVDA, MU, SNDK, SKHY, CVNA Stocks In Focus"
+      },
+      {
+        "when": "19 Aug 11:08",
+        "source": "Motley Fool",
+        "title": "A Stock Market Crash Is Coming Sooner or Later. History Says Investors Who Do This One Thing Will Profit."
+      },
+      {
+        "when": "19 Aug 11:01",
+        "source": "GuruFocus.com",
+        "title": "Santos Ltd (SSLZY) (H1 2026) Earnings Call Highlights: Record Production and Strategic Progress ..."
+      },
+      {
+        "when": "19 Aug 11:01",
+        "source": "GuruFocus.com",
+        "title": "ZTO Express (Cayman) Inc (ZTO) (Q2 2026) Earnings Call Highlights: Record Profit Surge and ..."
+      },
+      {
+        "when": "19 Aug 10:39",
+        "source": "The Wall Street Journal",
+        "title": "Bonds, Chip Stocks Steady Ahead of Fed Meeting Minutes"
+      },
+      {
         "when": "19 Aug 10:16",
         "source": "Reuters",
         "title": "Oil hits three-week high on uncertainty over Hormuz"
@@ -499,36 +529,6 @@
         "when": "19 Aug 10:13",
         "source": "Simply Wall St.",
         "title": "US Stock Market Today: S&P 500 Futures Slip On Rising Yields And Costly Energy"
-      },
-      {
-        "when": "19 Aug 10:11",
-        "source": "Yahoo Finance",
-        "title": "Stock market today: Dow, S&P 500, Nasdaq futures stall after Trump pauses tariffs on Canada"
-      },
-      {
-        "when": "19 Aug 09:36",
-        "source": "Reuters Videos",
-        "title": "Why are bond yields surging, and why does it matter?"
-      },
-      {
-        "when": "19 Aug 09:21",
-        "source": "Stocktwits",
-        "title": "Trump Pauses 50% Canada Tariff, Signals Keystone XL Revival: SPY, QQQ Traders Eye Relief Rally"
-      },
-      {
-        "when": "19 Aug 09:00",
-        "source": "Oilprice.com",
-        "title": "Venezuela Signs Oil Deals With SLB and Hunt to Boost Production"
-      },
-      {
-        "when": "19 Aug 08:04",
-        "source": "Benzinga Prediction Markets",
-        "title": "Stock Market: Will S&P 500 Open Up or Down Today?"
-      },
-      {
-        "when": "19 Aug 07:40",
-        "source": "Oilprice.com",
-        "title": "Oil Prices Rise for Fourth Day as Hormuz Traffic Slows"
       }
     ],
     "anomalies": [
