@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-19T04:45:26.102142+00:00",
+  "generated_at": "2026-08-19T05:38:10.134757+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -95,7 +95,7 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7706.75,
+      "close": 7704.25,
       "pct_change": -0.0324,
       "direction": "SELL",
       "score": 6,
@@ -104,7 +104,7 @@
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T05:00:00+02:00",
+      "bar_time": "2026-08-19T06:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -223,16 +223,16 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29527.75,
-      "pct_change": -0.0144,
+      "close": 29506.0,
+      "pct_change": -0.0737,
       "direction": "SELL",
       "score": 5,
       "total": 9,
-      "buy_count": 2,
+      "buy_count": 3,
       "sell_count": 5,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T05:00:00+02:00",
+      "bar_time": "2026-08-19T06:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -248,7 +248,7 @@
         {
           "key": "rsi_bars",
           "label": "RSI bars (OB/OS)",
-          "vote": 0
+          "vote": 1
         },
         {
           "key": "squeeze_momentum",
@@ -287,16 +287,16 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.68,
-      "pct_change": -0.0708,
+      "close": 84.61,
+      "pct_change": -0.0827,
       "direction": "BUY",
-      "score": 4,
+      "score": 5,
       "total": 9,
-      "buy_count": 4,
-      "sell_count": 2,
-      "tier": "WEAK",
-      "tier_emoji": "🟡",
-      "bar_time": "2026-08-19T05:00:00+02:00",
+      "buy_count": 5,
+      "sell_count": 1,
+      "tier": "MODERATE",
+      "tier_emoji": "🟠",
+      "bar_time": "2026-08-19T06:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -317,7 +317,7 @@
         {
           "key": "squeeze_momentum",
           "label": "Squeeze Momentum",
-          "vote": -1
+          "vote": 1
         },
         {
           "key": "accum_dist",
@@ -351,16 +351,16 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4407.5,
-      "pct_change": -0.0612,
+      "close": 4401.7998,
+      "pct_change": -0.1633,
       "direction": "SELL",
-      "score": 6,
+      "score": 5,
       "total": 9,
-      "buy_count": 1,
-      "sell_count": 6,
+      "buy_count": 2,
+      "sell_count": 5,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T04:00:00+02:00",
+      "bar_time": "2026-08-19T06:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -396,7 +396,7 @@
         {
           "key": "macd",
           "label": "MACD",
-          "vote": -1
+          "vote": 1
         },
         {
           "key": "bollinger",
@@ -428,13 +428,13 @@
     "level": "NORMAL",
     "emoji": "🟢",
     "percentile": 24.3,
-    "change_1d": -0.147,
+    "change_1d": -0.146,
     "change_5d": -0.283,
     "components": [
       {
         "label": "Gasoline futures",
-        "change": -11.371,
-        "z": -1.054,
+        "change": -11.336,
+        "z": -1.051,
         "units": "%"
       },
       {
@@ -451,8 +451,8 @@
       },
       {
         "label": "WTI crude",
-        "change": -0.271,
-        "z": -0.105,
+        "change": -0.294,
+        "z": -0.107,
         "units": "%"
       },
       {
