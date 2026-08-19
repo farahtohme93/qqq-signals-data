@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-19T17:34:24.822517+00:00",
+  "generated_at": "2026-08-19T18:47:10.858399+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -31,16 +31,16 @@
       "ticker": "^GSPC",
       "group": "SPX",
       "kind": "spot",
-      "close": 7715.3198,
-      "pct_change": -0.1601,
+      "close": 7715.3999,
+      "pct_change": 0.001,
       "direction": "SELL",
-      "score": 6,
+      "score": 5,
       "total": 9,
-      "buy_count": 1,
-      "sell_count": 6,
+      "buy_count": 2,
+      "sell_count": 5,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T18:30:00+02:00",
+      "bar_time": "2026-08-19T19:30:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -76,7 +76,7 @@
         {
           "key": "macd",
           "label": "MACD",
-          "vote": -1
+          "vote": 1
         },
         {
           "key": "bollinger",
@@ -95,8 +95,8 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7736.25,
-      "pct_change": -0.1226,
+      "close": 7734.75,
+      "pct_change": -0.0194,
       "direction": "BUY",
       "score": 5,
       "total": 9,
@@ -104,7 +104,7 @@
       "sell_count": 1,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T18:00:00+02:00",
+      "bar_time": "2026-08-19T19:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -159,8 +159,8 @@
       "ticker": "^NDX",
       "group": "US100",
       "kind": "spot",
-      "close": 29446.7852,
-      "pct_change": -0.2536,
+      "close": 29446.0176,
+      "pct_change": -0.0026,
       "direction": "SELL",
       "score": 5,
       "total": 9,
@@ -168,7 +168,7 @@
       "sell_count": 5,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T18:30:00+02:00",
+      "bar_time": "2026-08-19T19:30:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -223,8 +223,8 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29559.5,
-      "pct_change": -0.1579,
+      "close": 29544.25,
+      "pct_change": -0.0516,
       "direction": "BUY",
       "score": 4,
       "total": 9,
@@ -232,7 +232,7 @@
       "sell_count": 2,
       "tier": "WEAK",
       "tier_emoji": "🟡",
-      "bar_time": "2026-08-19T18:00:00+02:00",
+      "bar_time": "2026-08-19T19:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -287,16 +287,16 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 85.59,
-      "pct_change": 0.4224,
+      "close": 85.13,
+      "pct_change": -0.5374,
       "direction": "BUY",
-      "score": 8,
+      "score": 7,
       "total": 9,
-      "buy_count": 8,
+      "buy_count": 7,
       "sell_count": 0,
       "tier": "STRONG",
       "tier_emoji": "🔴",
-      "bar_time": "2026-08-19T18:00:00+02:00",
+      "bar_time": "2026-08-19T19:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -337,7 +337,7 @@
         {
           "key": "bollinger",
           "label": "Bollinger",
-          "vote": 1
+          "vote": 0
         },
         {
           "key": "smart_money",
@@ -351,8 +351,8 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4551.0,
-      "pct_change": -0.0264,
+      "close": 4544.7002,
+      "pct_change": -0.1384,
       "direction": "BUY",
       "score": 7,
       "total": 9,
@@ -360,7 +360,7 @@
       "sell_count": 1,
       "tier": "STRONG",
       "tier_emoji": "🔴",
-      "bar_time": "2026-08-19T18:00:00+02:00",
+      "bar_time": "2026-08-19T19:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -441,44 +441,44 @@
     "earnings": [],
     "headlines": [
       {
-        "when": "19 Aug 19:17",
-        "source": "Proactive",
-        "title": "Pinnacle Extends high-grade Gold-Silver mineralization at El Potrero"
-      },
-      {
-        "when": "19 Aug 19:14",
+        "when": "19 Aug 20:34",
         "source": "Investor's Business Daily",
-        "title": "Stock Market Today: S&P 500 Higher As Fed Minutes Loom; Bitcoin Jumps Ahead Of White House Meet (Live Coverage)"
+        "title": "Stock Market Today: S&P 500 Higher As Yields Fall; Bitcoin Jumps As Gold Stocks Rise(Live Coverage)"
       },
       {
-        "when": "19 Aug 19:00",
-        "source": "Motley Fool",
-        "title": "Why Kinross Gold Stock Popped on Wednesday"
-      },
-      {
-        "when": "19 Aug 18:56",
-        "source": "Motley Fool",
-        "title": "Broadcom Drags the Nasdaq While the Dow and S&P 500 Climb"
-      },
-      {
-        "when": "19 Aug 18:53",
-        "source": "Motley Fool",
-        "title": "If a Recession Is Coming, 100 Years of History Says This Is the Best Move Investors Can Make"
-      },
-      {
-        "when": "19 Aug 18:44",
-        "source": "MT Newswires",
-        "title": "US Equity Indexes Rise as Treasury Yields Ease on Buyback Ramp"
-      },
-      {
-        "when": "19 Aug 18:34",
+        "when": "19 Aug 20:30",
         "source": "Reuters",
-        "title": "Europe's STOXX 600 near three-week low as inflation worries weigh"
+        "title": "Global yields fall after US Treasury boosts debt buybacks"
       },
       {
-        "when": "19 Aug 18:14",
-        "source": "Investor's Business Daily",
-        "title": "5 Energy Stocks Breaking Out As Iran Ceasefire Ends, Oil Prices Keep Rising"
+        "when": "19 Aug 20:26",
+        "source": "The Wall Street Journal",
+        "title": "Gold Prices Pop After Treasury Moves to Push Down Bond Yields"
+      },
+      {
+        "when": "19 Aug 20:24",
+        "source": "The Wall Street Journal",
+        "title": "U.S. Stocks Climb as Bond Yields Dive"
+      },
+      {
+        "when": "19 Aug 20:10",
+        "source": "Simply Wall St.",
+        "title": "Has Macquarie Group (ASX:MQG) Run Ahead Of Fair Value On The Donlin Gold Mandate?"
+      },
+      {
+        "when": "19 Aug 20:10",
+        "source": "24/7 Wall St.",
+        "title": "A Top Strategist Says Buy “Anything but the S&P 500” as Small Caps Quietly Steal the Lead"
+      },
+      {
+        "when": "19 Aug 19:57",
+        "source": "Reuters",
+        "title": "Oil prices up over 1%, near 3-week high as Middle East crisis escalates"
+      },
+      {
+        "when": "19 Aug 19:48",
+        "source": "Stocktwits",
+        "title": "This Gold ETF Sees Best Day In Nearly Four Years As Treasury Yields Drop On Bessent's Bond Buyback Move"
       }
     ],
     "anomalies": [
