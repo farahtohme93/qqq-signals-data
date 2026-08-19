@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-19T16:39:56.417716+00:00",
+  "generated_at": "2026-08-19T17:34:24.822517+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -31,8 +31,8 @@
       "ticker": "^GSPC",
       "group": "SPX",
       "kind": "spot",
-      "close": 7727.6899,
-      "pct_change": -0.034,
+      "close": 7715.3198,
+      "pct_change": -0.1601,
       "direction": "SELL",
       "score": 6,
       "total": 9,
@@ -40,7 +40,7 @@
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T17:30:00+02:00",
+      "bar_time": "2026-08-19T18:30:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -95,8 +95,8 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7745.75,
-      "pct_change": -0.2061,
+      "close": 7736.25,
+      "pct_change": -0.1226,
       "direction": "BUY",
       "score": 5,
       "total": 9,
@@ -104,7 +104,7 @@
       "sell_count": 1,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T17:00:00+02:00",
+      "bar_time": "2026-08-19T18:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -159,16 +159,16 @@
       "ticker": "^NDX",
       "group": "US100",
       "kind": "spot",
-      "close": 29521.6445,
-      "pct_change": 0.0087,
+      "close": 29446.7852,
+      "pct_change": -0.2536,
       "direction": "SELL",
-      "score": 4,
+      "score": 5,
       "total": 9,
-      "buy_count": 2,
-      "sell_count": 4,
-      "tier": "WEAK",
-      "tier_emoji": "🟡",
-      "bar_time": "2026-08-19T17:30:00+02:00",
+      "buy_count": 1,
+      "sell_count": 5,
+      "tier": "MODERATE",
+      "tier_emoji": "🟠",
+      "bar_time": "2026-08-19T18:30:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -194,7 +194,7 @@
         {
           "key": "accum_dist",
           "label": "Accum/Dist",
-          "vote": 1
+          "vote": -1
         },
         {
           "key": "ema_cross",
@@ -223,16 +223,16 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29606.5,
-      "pct_change": -0.0565,
+      "close": 29559.5,
+      "pct_change": -0.1579,
       "direction": "BUY",
       "score": 4,
       "total": 9,
       "buy_count": 4,
-      "sell_count": 1,
+      "sell_count": 2,
       "tier": "WEAK",
       "tier_emoji": "🟡",
-      "bar_time": "2026-08-19T17:00:00+02:00",
+      "bar_time": "2026-08-19T18:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -243,7 +243,7 @@
         {
           "key": "rsi_trend",
           "label": "RSI trend",
-          "vote": 0
+          "vote": -1
         },
         {
           "key": "rsi_bars",
@@ -287,16 +287,16 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 85.23,
-      "pct_change": 0.4005,
+      "close": 85.59,
+      "pct_change": 0.4224,
       "direction": "BUY",
-      "score": 7,
+      "score": 8,
       "total": 9,
-      "buy_count": 7,
+      "buy_count": 8,
       "sell_count": 0,
       "tier": "STRONG",
       "tier_emoji": "🔴",
-      "bar_time": "2026-08-19T17:00:00+02:00",
+      "bar_time": "2026-08-19T18:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -337,7 +337,7 @@
         {
           "key": "bollinger",
           "label": "Bollinger",
-          "vote": 0
+          "vote": 1
         },
         {
           "key": "smart_money",
@@ -351,16 +351,16 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4552.2002,
-      "pct_change": 0.1144,
+      "close": 4551.0,
+      "pct_change": -0.0264,
       "direction": "BUY",
-      "score": 8,
+      "score": 7,
       "total": 9,
-      "buy_count": 8,
+      "buy_count": 7,
       "sell_count": 1,
       "tier": "STRONG",
       "tier_emoji": "🔴",
-      "bar_time": "2026-08-19T17:00:00+02:00",
+      "bar_time": "2026-08-19T18:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -401,7 +401,7 @@
         {
           "key": "bollinger",
           "label": "Bollinger",
-          "vote": 1
+          "vote": 0
         },
         {
           "key": "smart_money",
@@ -412,58 +412,8 @@
     }
   ],
   "failures": [],
-  "yields": {
-    "name": "US 10-year Treasury yield",
-    "ticker": "^TNX",
-    "level": 4.659,
-    "change_bp": -4.7,
-    "change_5d_bp": -2.3,
-    "change_20d_bp": 0.2,
-    "sigma_mult": 1.19,
-    "direction": "FALLING",
-    "asof": "2026-08-19T00:00:00"
-  },
-  "pressure": {
-    "value": -0.537,
-    "level": "NORMAL",
-    "emoji": "🟢",
-    "percentile": 18.4,
-    "change_1d": -0.319,
-    "change_5d": -0.419,
-    "components": [
-      {
-        "label": "Gasoline futures",
-        "change": -11.903,
-        "z": -1.098,
-        "units": "%"
-      },
-      {
-        "label": "VIX",
-        "change": -19.088,
-        "z": -0.874,
-        "units": "%"
-      },
-      {
-        "label": "S&P 500",
-        "change": 3.786,
-        "z": -0.632,
-        "units": "%"
-      },
-      {
-        "label": "10y Treasury yield",
-        "change": 0.031,
-        "z": -0.044,
-        "units": "pp"
-      },
-      {
-        "label": "WTI crude",
-        "change": 0.483,
-        "z": -0.036,
-        "units": "%"
-      }
-    ],
-    "missing": []
-  },
+  "yields": null,
+  "pressure": null,
   "events": {
     "macro": [
       {
@@ -491,6 +441,36 @@
     "earnings": [],
     "headlines": [
       {
+        "when": "19 Aug 19:17",
+        "source": "Proactive",
+        "title": "Pinnacle Extends high-grade Gold-Silver mineralization at El Potrero"
+      },
+      {
+        "when": "19 Aug 19:14",
+        "source": "Investor's Business Daily",
+        "title": "Stock Market Today: S&P 500 Higher As Fed Minutes Loom; Bitcoin Jumps Ahead Of White House Meet (Live Coverage)"
+      },
+      {
+        "when": "19 Aug 19:00",
+        "source": "Motley Fool",
+        "title": "Why Kinross Gold Stock Popped on Wednesday"
+      },
+      {
+        "when": "19 Aug 18:56",
+        "source": "Motley Fool",
+        "title": "Broadcom Drags the Nasdaq While the Dow and S&P 500 Climb"
+      },
+      {
+        "when": "19 Aug 18:53",
+        "source": "Motley Fool",
+        "title": "If a Recession Is Coming, 100 Years of History Says This Is the Best Move Investors Can Make"
+      },
+      {
+        "when": "19 Aug 18:44",
+        "source": "MT Newswires",
+        "title": "US Equity Indexes Rise as Treasury Yields Ease on Buyback Ramp"
+      },
+      {
         "when": "19 Aug 18:34",
         "source": "Reuters",
         "title": "Europe's STOXX 600 near three-week low as inflation worries weigh"
@@ -499,41 +479,10 @@
         "when": "19 Aug 18:14",
         "source": "Investor's Business Daily",
         "title": "5 Energy Stocks Breaking Out As Iran Ceasefire Ends, Oil Prices Keep Rising"
-      },
-      {
-        "when": "19 Aug 18:11",
-        "source": "Yahoo Personal Finance",
-        "title": "Gold prices today, Wednesday, August 19, 2026: Gold strengthens ahead of FOMC minutes release"
-      },
-      {
-        "when": "19 Aug 18:10",
-        "source": "Investor's Business Daily",
-        "title": "Dow Jones Tech Titan Alphabet Offers New Buy Point, But These Key Flaws Remain"
-      },
-      {
-        "when": "19 Aug 18:01",
-        "source": "AFP",
-        "title": "Stocks waver, dollar drops as US Treasury moves to lower bond yields"
-      },
-      {
-        "when": "19 Aug 18:00",
-        "source": "Investor's Business Daily",
-        "title": "Treasury Yields Fall, Gold Jumps On Bessent Buyback Plan; GDX Flashes Buy Signal"
-      },
-      {
-        "when": "19 Aug 17:42",
-        "source": "Investor's Business Daily",
-        "title": "Stock Market Today: S&P 500 Charges Up As Fed Minutes Loom; Moderna Soars On Cancer News (Live Coverage)"
-      },
-      {
-        "when": "19 Aug 17:34",
-        "source": "24/7 Wall St.",
-        "title": "Intel and AMD Fall 4%, NVIDIA Unchanged as Chip Selloff Defies Bond Yield Relief"
       }
     ],
     "anomalies": [
-      "S&P 500 Index: hourly ranges 1.8x tighter than the past 10 days — coiled, watch for a break",
-      "S&P 500 E-mini Future: last bar moved -0.21%, 2.3x its recent hourly volatility"
+      "S&P 500 Index: hourly ranges 1.8x tighter than the past 10 days — coiled, watch for a break"
     ],
     "notes": []
   }
