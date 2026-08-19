@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-19T10:37:31.086922+00:00",
+  "generated_at": "2026-08-19T11:33:35.123112+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -96,7 +96,7 @@
       "group": "SPX",
       "kind": "futures",
       "close": 7713.5,
-      "pct_change": -0.0615,
+      "pct_change": 0.0,
       "direction": "SELL",
       "score": 6,
       "total": 9,
@@ -104,7 +104,7 @@
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T11:00:00+02:00",
+      "bar_time": "2026-08-19T12:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -223,16 +223,16 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29553.75,
-      "pct_change": -0.1883,
+      "close": 29521.0,
+      "pct_change": -0.1108,
       "direction": "SELL",
-      "score": 5,
+      "score": 6,
       "total": 9,
       "buy_count": 1,
-      "sell_count": 5,
+      "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T11:00:00+02:00",
+      "bar_time": "2026-08-19T12:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -278,7 +278,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": 0
+          "vote": -1
         }
       ]
     },
@@ -287,8 +287,8 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 85.02,
-      "pct_change": 0.0471,
+      "close": 84.91,
+      "pct_change": -0.1294,
       "direction": "BUY",
       "score": 7,
       "total": 9,
@@ -296,7 +296,7 @@
       "sell_count": 0,
       "tier": "STRONG",
       "tier_emoji": "🔴",
-      "bar_time": "2026-08-19T11:00:00+02:00",
+      "bar_time": "2026-08-19T12:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -351,16 +351,16 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4416.3999,
-      "pct_change": 0.1519,
+      "close": 4422.2002,
+      "pct_change": 0.1313,
       "direction": "BUY",
-      "score": 3,
+      "score": 4,
       "total": 9,
-      "buy_count": 3,
+      "buy_count": 4,
       "sell_count": 2,
       "tier": "WEAK",
       "tier_emoji": "🟡",
-      "bar_time": "2026-08-19T11:00:00+02:00",
+      "bar_time": "2026-08-19T12:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -371,7 +371,7 @@
         {
           "key": "rsi_trend",
           "label": "RSI trend",
-          "vote": 0
+          "vote": 1
         },
         {
           "key": "rsi_bars",
@@ -424,42 +424,42 @@
     "asof": "2026-08-18T00:00:00"
   },
   "pressure": {
-    "value": -0.417,
+    "value": -0.364,
     "level": "NORMAL",
     "emoji": "🟢",
-    "percentile": 26.2,
-    "change_1d": -0.218,
-    "change_5d": -0.314,
+    "percentile": 28.1,
+    "change_1d": -0.11,
+    "change_5d": -0.214,
     "components": [
       {
         "label": "Gasoline futures",
-        "change": -11.137,
-        "z": -1.034,
+        "change": -11.421,
+        "z": -1.058,
         "units": "%"
       },
       {
         "label": "VIX",
-        "change": -14.853,
-        "z": -0.703,
+        "change": -7.566,
+        "z": -0.409,
         "units": "%"
       },
       {
         "label": "S&P 500",
-        "change": 3.338,
-        "z": -0.531,
+        "change": 2.431,
+        "z": -0.325,
+        "units": "%"
+      },
+      {
+        "label": "WTI crude",
+        "change": -0.259,
+        "z": -0.104,
         "units": "%"
       },
       {
         "label": "10y Treasury yield",
         "change": 0.078,
-        "z": 0.246,
+        "z": 0.078,
         "units": "pp"
-      },
-      {
-        "label": "WTI crude",
-        "change": 0.2,
-        "z": -0.062,
-        "units": "%"
       }
     ],
     "missing": []
@@ -491,44 +491,44 @@
     "earnings": [],
     "headlines": [
       {
-        "when": "19 Aug 12:23",
+        "when": "19 Aug 13:17",
+        "source": "MT Newswires",
+        "title": "Bond Yields, Persian Gulf Outlooks Cap Wall Street Pre-Bell; Asia, Europe Off"
+      },
+      {
+        "when": "19 Aug 13:16",
         "source": "Investor's Business Daily",
-        "title": "Dow Jones Futures Fall; After Sandisk, Micron, Credo Lead AI Losses, Market Rally Nears Key Test"
+        "title": "Dow Jones Futures Waver After Sandisk, Micron, Credo Lead AI Losses; Target Earnings Beat"
+      },
+      {
+        "when": "19 Aug 13:13",
+        "source": "The Wall Street Journal",
+        "title": "U.S. Stock Futures Flat Amid Retail Industry Earnings"
+      },
+      {
+        "when": "19 Aug 13:03",
+        "source": "24/7 Wall St.",
+        "title": "3 Energy Dividend Stocks to Buy for Big Yields in August"
+      },
+      {
+        "when": "19 Aug 13:00",
+        "source": "AFP",
+        "title": "Oil rises, stocks waver amid tech sell-off"
+      },
+      {
+        "when": "19 Aug 12:48",
+        "source": "Reuters",
+        "title": "US stock futures steady after tech slump; investors focus on Middle East tensions"
+      },
+      {
+        "when": "19 Aug 12:42",
+        "source": "MT Newswires",
+        "title": "Rising Bond Yields, Sagging Tech Valuations Blunt Asian Stock Markets"
       },
       {
         "when": "19 Aug 12:02",
         "source": "MarketBeat",
         "title": "DRDGOLD H2 Earnings Call Highlights"
-      },
-      {
-        "when": "19 Aug 11:58",
-        "source": "Reuters",
-        "title": "Oil hits three-week high on uncertainty over Hormuz"
-      },
-      {
-        "when": "19 Aug 11:56",
-        "source": "InvestorsHub",
-        "title": "Oil Prices Extend Gains as Hormuz Tensions Persist"
-      },
-      {
-        "when": "19 Aug 11:50",
-        "source": "InvestorsHub",
-        "title": "U.S. Futures Little Changed After Semiconductor-Led Selloff: Dow Jones, S&P, Nasdaq, Wall Street"
-      },
-      {
-        "when": "19 Aug 11:37",
-        "source": "Reuters",
-        "title": "European shares muted as energy stocks gain amid Mideast jitters; Fed minutes in focus"
-      },
-      {
-        "when": "19 Aug 11:20",
-        "source": "Motley Fool",
-        "title": "The Stock Market Is Flashing a Warning Signal So Rare It's Only Appeared Once Before. Here's What History Says Comes Next."
-      },
-      {
-        "when": "19 Aug 11:05",
-        "source": "Barrons.com",
-        "title": "Oil Rises on Persistent Hormuz Uncertainty"
       }
     ],
     "anomalies": [
