@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-19T01:46:15.844061+00:00",
+  "generated_at": "2026-08-19T03:05:56.831785+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -95,7 +95,7 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7711.0,
+      "close": 7711.25,
       "pct_change": 0.0032,
       "direction": "SELL",
       "score": 5,
@@ -104,7 +104,7 @@
       "sell_count": 5,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T02:00:00+02:00",
+      "bar_time": "2026-08-19T03:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -223,16 +223,16 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29539.25,
-      "pct_change": 0.0364,
+      "close": 29577.75,
+      "pct_change": 0.1303,
       "direction": "SELL",
       "score": 5,
       "total": 9,
-      "buy_count": 3,
+      "buy_count": 2,
       "sell_count": 5,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T02:00:00+02:00",
+      "bar_time": "2026-08-19T03:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -248,7 +248,7 @@
         {
           "key": "rsi_bars",
           "label": "RSI bars (OB/OS)",
-          "vote": 1
+          "vote": 0
         },
         {
           "key": "squeeze_momentum",
@@ -287,8 +287,8 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.75,
-      "pct_change": 0.2959,
+      "close": 85.0,
+      "pct_change": 0.295,
       "direction": "BUY",
       "score": 5,
       "total": 9,
@@ -296,7 +296,7 @@
       "sell_count": 2,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T02:00:00+02:00",
+      "bar_time": "2026-08-19T03:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -351,16 +351,16 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4391.7998,
-      "pct_change": 0.1322,
+      "close": 4410.2002,
+      "pct_change": 0.419,
       "direction": "SELL",
       "score": 6,
       "total": 9,
-      "buy_count": 2,
+      "buy_count": 1,
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T02:00:00+02:00",
+      "bar_time": "2026-08-19T03:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -376,7 +376,7 @@
         {
           "key": "rsi_bars",
           "label": "RSI bars (OB/OS)",
-          "vote": 1
+          "vote": 0
         },
         {
           "key": "squeeze_momentum",
@@ -424,17 +424,17 @@
     "asof": "2026-08-18T00:00:00"
   },
   "pressure": {
-    "value": -0.39,
+    "value": -0.393,
     "level": "NORMAL",
     "emoji": "🟢",
-    "percentile": 26.3,
-    "change_1d": -0.126,
-    "change_5d": -0.276,
+    "percentile": 26.2,
+    "change_1d": -0.129,
+    "change_5d": -0.278,
     "components": [
       {
         "label": "Gasoline futures",
-        "change": -10.696,
-        "z": -0.998,
+        "change": -10.735,
+        "z": -1.001,
         "units": "%"
       },
       {
@@ -457,8 +457,8 @@
       },
       {
         "label": "WTI crude",
-        "change": 1.982,
-        "z": 0.1,
+        "change": 1.874,
+        "z": 0.09,
         "units": "%"
       }
     ],
@@ -491,9 +491,19 @@
     "earnings": [],
     "headlines": [
       {
-        "when": "19 Aug 03:34",
+        "when": "19 Aug 04:51",
         "source": "Investor's Business Daily",
-        "title": "Dow Jones Futures: Sandisk, Micron, Credo Lead Painful AI Losses; Market Rally Near Key Test"
+        "title": "Dow Jones Futures Fall; After Sandisk, Micron, Credo Lead AI Losses, Market Rally Nears Key Test"
+      },
+      {
+        "when": "19 Aug 04:30",
+        "source": "Reuters",
+        "title": "Indian shares set for muted start as higher oil prices, Treasury yields weigh"
+      },
+      {
+        "when": "19 Aug 04:12",
+        "source": "Simply Wall St.",
+        "title": "Marathon Petroleum (MPC) Is Up 8.9% After Near Record Refinery Utilization and Strong Margins - What's Changed"
       },
       {
         "when": "19 Aug 03:04",
@@ -511,24 +521,14 @@
         "title": "Contango Silver & Gold Inc (CTGO) (Q2 2026) Earnings Call Highlights: Unhedged and Poised ..."
       },
       {
+        "when": "19 Aug 02:59",
+        "source": "Reuters",
+        "title": "Gold inches higher, focus on Fed minutes"
+      },
+      {
         "when": "19 Aug 02:39",
         "source": "Reuters",
         "title": "Oil edges up on uncertainty over exports through Hormuz"
-      },
-      {
-        "when": "19 Aug 02:26",
-        "source": "The Wall Street Journal",
-        "title": "Oil Rises Amid Growing Concerns Over Supply Disruptions"
-      },
-      {
-        "when": "19 Aug 01:45",
-        "source": "The Fiscal Times",
-        "title": "30-Year Treasury Yield Touches a 19-Year High as US Debt Approaches $40 Trillion"
-      },
-      {
-        "when": "19 Aug 00:41",
-        "source": "Reuters Videos",
-        "title": "Tech selloff weighs down Wall Street as bond yields climb"
       }
     ],
     "anomalies": [
