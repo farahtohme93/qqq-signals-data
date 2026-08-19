@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-19T19:33:31.196399+00:00",
+  "generated_at": "2026-08-19T20:37:41.772706+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -95,16 +95,16 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7734.75,
-      "pct_change": 0.0,
+      "close": 7731.25,
+      "pct_change": -0.0453,
       "direction": "BUY",
-      "score": 5,
+      "score": 3,
       "total": 9,
-      "buy_count": 5,
-      "sell_count": 1,
-      "tier": "MODERATE",
-      "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T20:00:00+02:00",
+      "buy_count": 3,
+      "sell_count": 2,
+      "tier": "WEAK",
+      "tier_emoji": "🟡",
+      "bar_time": "2026-08-19T21:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -115,7 +115,7 @@
         {
           "key": "rsi_trend",
           "label": "RSI trend",
-          "vote": 1
+          "vote": 0
         },
         {
           "key": "rsi_bars",
@@ -130,7 +130,7 @@
         {
           "key": "accum_dist",
           "label": "Accum/Dist",
-          "vote": 1
+          "vote": -1
         },
         {
           "key": "ema_cross",
@@ -223,8 +223,8 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29535.0,
-      "pct_change": -0.0313,
+      "close": 29521.5,
+      "pct_change": -0.0449,
       "direction": "BUY",
       "score": 4,
       "total": 9,
@@ -232,7 +232,7 @@
       "sell_count": 2,
       "tier": "WEAK",
       "tier_emoji": "🟡",
-      "bar_time": "2026-08-19T20:00:00+02:00",
+      "bar_time": "2026-08-19T21:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -287,8 +287,8 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.35,
-      "pct_change": -0.9162,
+      "close": 84.26,
+      "pct_change": -0.1067,
       "direction": "BUY",
       "score": 5,
       "total": 9,
@@ -296,7 +296,7 @@
       "sell_count": 2,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T20:00:00+02:00",
+      "bar_time": "2026-08-19T21:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -351,8 +351,8 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4553.2998,
-      "pct_change": 0.1826,
+      "close": 4568.2998,
+      "pct_change": 0.3404,
       "direction": "BUY",
       "score": 7,
       "total": 9,
@@ -360,7 +360,7 @@
       "sell_count": 1,
       "tier": "STRONG",
       "tier_emoji": "🔴",
-      "bar_time": "2026-08-19T20:00:00+02:00",
+      "bar_time": "2026-08-19T21:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -412,58 +412,8 @@
     }
   ],
   "failures": [],
-  "yields": {
-    "name": "US 10-year Treasury yield",
-    "ticker": "^TNX",
-    "level": 4.653,
-    "change_bp": -5.3,
-    "change_5d_bp": -2.9,
-    "change_20d_bp": -0.4,
-    "sigma_mult": 1.34,
-    "direction": "FALLING",
-    "asof": "2026-08-19T00:00:00"
-  },
-  "pressure": {
-    "value": -0.502,
-    "level": "NORMAL",
-    "emoji": "🟢",
-    "percentile": 20.4,
-    "change_1d": -0.249,
-    "change_5d": -0.353,
-    "components": [
-      {
-        "label": "Gasoline futures",
-        "change": -13.268,
-        "z": -1.211,
-        "units": "%"
-      },
-      {
-        "label": "VIX",
-        "change": -12.141,
-        "z": -0.593,
-        "units": "%"
-      },
-      {
-        "label": "S&P 500",
-        "change": 2.835,
-        "z": -0.417,
-        "units": "%"
-      },
-      {
-        "label": "WTI crude",
-        "change": -1.013,
-        "z": -0.172,
-        "units": "%"
-      },
-      {
-        "label": "10y Treasury yield",
-        "change": 0.025,
-        "z": -0.119,
-        "units": "pp"
-      }
-    ],
-    "missing": []
-  },
+  "yields": null,
+  "pressure": null,
   "events": {
     "macro": [
       {
@@ -491,44 +441,44 @@
     "earnings": [],
     "headlines": [
       {
+        "when": "19 Aug 22:31",
+        "source": "Investor's Business Daily",
+        "title": "Stock Market Today: Dow Breaks Losing Streak As Moderna Catapults On Its Cancer Vaccine Win (Live Coverage)"
+      },
+      {
+        "when": "19 Aug 22:26",
+        "source": "MT Newswires",
+        "title": "US Equity Markets End Higher as US Treasury Plans Expanded Long-Bond Buybacks"
+      },
+      {
+        "when": "19 Aug 22:10",
+        "source": "Simply Wall St.",
+        "title": "Is Advantest’s Earnings Beat Amid High Energy Costs Reframing Its Investment Case (TSE:6857)?"
+      },
+      {
+        "when": "19 Aug 21:56",
+        "source": "The Wall Street Journal",
+        "title": "Long-Term Yields Fall on Treasury Move While Short-Term Holds Up"
+      },
+      {
+        "when": "19 Aug 21:44",
+        "source": "MT Newswires",
+        "title": "US Equity Indexes Rise After Treasury Lifts Buyback Limit, Fed Minutes Show Most FOMC Participants Agreed to Hold Rates Steady at July Meeting"
+      },
+      {
+        "when": "19 Aug 21:23",
+        "source": "The Wall Street Journal",
+        "title": "Oil Extends Gains With No Progress Seen on Hormuz Standoff"
+      },
+      {
         "when": "19 Aug 21:22",
         "source": "Reuters",
         "title": "US yields drop after Treasury offers liquidity support"
       },
       {
-        "when": "19 Aug 21:17",
-        "source": "Investor's Business Daily",
-        "title": "Stock Market Today: S&P 500 Higher As Yields Tumble; Coinbase Soars Amid White House News (Live Coverage)"
-      },
-      {
         "when": "19 Aug 21:12",
         "source": "Reuters",
         "title": "Oil prices settle near 4-week high as Middle East crisis escalates"
-      },
-      {
-        "when": "19 Aug 21:11",
-        "source": "TheStreet",
-        "title": "Gold, Bitcoin rally as U.S. Treasury makes unexpected bond market move"
-      },
-      {
-        "when": "19 Aug 21:00",
-        "source": "InvestorsHub",
-        "title": "Markets in Motion: Earnings and easier financial conditions support outlook"
-      },
-      {
-        "when": "19 Aug 20:56",
-        "source": "GuruFocus.com",
-        "title": "Evercore Revamps S&P 500 Price Target for 2026"
-      },
-      {
-        "when": "19 Aug 20:46",
-        "source": "Reuters",
-        "title": "Wall St rises as yields ease, Moderna lifts healthcare stocks"
-      },
-      {
-        "when": "19 Aug 20:46",
-        "source": "Benzinga Prediction Markets",
-        "title": "Gold Jumps 3% as Bessent's Treasury Steps Into Bond Rout"
       }
     ],
     "anomalies": [
