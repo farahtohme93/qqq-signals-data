@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-19T07:47:49.131233+00:00",
+  "generated_at": "2026-08-19T08:49:15.777993+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -95,8 +95,8 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7714.5,
-      "pct_change": 0.1916,
+      "close": 7718.5,
+      "pct_change": 0.0519,
       "direction": "SELL",
       "score": 6,
       "total": 9,
@@ -104,7 +104,7 @@
       "sell_count": 6,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T08:00:00+02:00",
+      "bar_time": "2026-08-19T09:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -223,8 +223,8 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29559.75,
-      "pct_change": 0.3471,
+      "close": 29601.25,
+      "pct_change": 0.1404,
       "direction": "SELL",
       "score": 5,
       "total": 9,
@@ -232,7 +232,7 @@
       "sell_count": 5,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T08:00:00+02:00",
+      "bar_time": "2026-08-19T09:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -287,16 +287,16 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.54,
-      "pct_change": -0.2713,
+      "close": 84.7,
+      "pct_change": 0.1893,
       "direction": "BUY",
-      "score": 4,
+      "score": 5,
       "total": 9,
-      "buy_count": 4,
-      "sell_count": 2,
-      "tier": "WEAK",
-      "tier_emoji": "🟡",
-      "bar_time": "2026-08-19T08:00:00+02:00",
+      "buy_count": 5,
+      "sell_count": 1,
+      "tier": "MODERATE",
+      "tier_emoji": "🟠",
+      "bar_time": "2026-08-19T09:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -322,7 +322,7 @@
         {
           "key": "accum_dist",
           "label": "Accum/Dist",
-          "vote": -1
+          "vote": 1
         },
         {
           "key": "ema_cross",
@@ -351,8 +351,8 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4402.8999,
-      "pct_change": 0.3167,
+      "close": 4408.2998,
+      "pct_change": 0.1226,
       "direction": "SELL",
       "score": 5,
       "total": 9,
@@ -360,7 +360,7 @@
       "sell_count": 5,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-19T08:00:00+02:00",
+      "bar_time": "2026-08-19T09:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -424,42 +424,42 @@
     "asof": "2026-08-18T00:00:00"
   },
   "pressure": {
-    "value": -0.349,
+    "value": -0.476,
     "level": "NORMAL",
     "emoji": "🟢",
-    "percentile": 30.3,
-    "change_1d": -0.131,
-    "change_5d": -0.231,
+    "percentile": 21.8,
+    "change_1d": -0.222,
+    "change_5d": -0.326,
     "components": [
       {
         "label": "Gasoline futures",
-        "change": -11.897,
-        "z": -1.098,
+        "change": -11.606,
+        "z": -1.073,
         "units": "%"
       },
       {
         "label": "VIX",
-        "change": -7.097,
-        "z": -0.39,
+        "change": -15.228,
+        "z": -0.718,
         "units": "%"
       },
       {
         "label": "S&P 500",
-        "change": 2.431,
-        "z": -0.325,
+        "change": 3.338,
+        "z": -0.531,
+        "units": "%"
+      },
+      {
+        "label": "WTI crude",
+        "change": -0.624,
+        "z": -0.137,
         "units": "%"
       },
       {
         "label": "10y Treasury yield",
         "change": 0.078,
-        "z": 0.206,
+        "z": 0.078,
         "units": "pp"
-      },
-      {
-        "label": "WTI crude",
-        "change": -0.636,
-        "z": -0.138,
-        "units": "%"
       }
     ],
     "missing": []
@@ -491,14 +491,34 @@
     "earnings": [],
     "headlines": [
       {
+        "when": "19 Aug 10:16",
+        "source": "Reuters",
+        "title": "Oil hits three-week high on uncertainty over Hormuz"
+      },
+      {
+        "when": "19 Aug 10:13",
+        "source": "Simply Wall St.",
+        "title": "US Stock Market Today: S&P 500 Futures Slip On Rising Yields And Costly Energy"
+      },
+      {
+        "when": "19 Aug 10:11",
+        "source": "Yahoo Finance",
+        "title": "Stock market today: Dow, S&P 500, Nasdaq futures stall after Trump pauses tariffs on Canada"
+      },
+      {
         "when": "19 Aug 09:36",
         "source": "Reuters Videos",
         "title": "Why are bond yields surging, and why does it matter?"
       },
       {
-        "when": "19 Aug 08:45",
-        "source": "Reuters",
-        "title": "Oil extends climb on prolonged Hormuz export uncertainty"
+        "when": "19 Aug 09:21",
+        "source": "Stocktwits",
+        "title": "Trump Pauses 50% Canada Tariff, Signals Keystone XL Revival: SPY, QQQ Traders Eye Relief Rally"
+      },
+      {
+        "when": "19 Aug 09:00",
+        "source": "Oilprice.com",
+        "title": "Venezuela Signs Oil Deals With SLB and Hunt to Boost Production"
       },
       {
         "when": "19 Aug 08:04",
@@ -509,33 +529,11 @@
         "when": "19 Aug 07:40",
         "source": "Oilprice.com",
         "title": "Oil Prices Rise for Fourth Day as Hormuz Traffic Slows"
-      },
-      {
-        "when": "19 Aug 05:17",
-        "source": "Stocktwits",
-        "title": "Dow, S&P 500, Nasdaq Futures Slip As Global Bond Rout Catches Up With Markets: LUNR, MSTR, WYFI, AMLX Stocks In Focus"
-      },
-      {
-        "when": "19 Aug 05:09",
-        "source": "Investor's Business Daily",
-        "title": "Dow Jones Futures Fall; After Sandisk, Micron, Credo Lead AI Losses, Market Rally Nears Key Test"
-      },
-      {
-        "when": "19 Aug 05:05",
-        "source": "Associated Press",
-        "title": "Shares fall in Asia, with Kospi down 5.7%, while oil prices jump"
-      },
-      {
-        "when": "19 Aug 03:04",
-        "source": "GuruFocus.com",
-        "title": "Erdene Resource Development Corp (ERDCF) (Q2 2026) Earnings Call Highlights: Record Production ..."
       }
     ],
     "anomalies": [
       "S&P 500 Index: hourly ranges 2.0x tighter than the past 10 days — coiled, watch for a break",
-      "S&P 500 E-mini Future: last bar moved +0.19%, 2.2x its recent hourly volatility",
-      "Nasdaq 100 Index: hourly ranges 1.9x tighter than the past 10 days — coiled, watch for a break",
-      "Nasdaq 100 E-mini Future: last bar moved +0.35%, 2.0x its recent hourly volatility"
+      "Nasdaq 100 Index: hourly ranges 1.9x tighter than the past 10 days — coiled, watch for a break"
     ],
     "notes": []
   }
