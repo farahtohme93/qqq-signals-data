@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-19T23:30:41.541358+00:00",
+  "generated_at": "2026-08-20T01:45:07.398591+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -95,8 +95,8 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7742.0,
-      "pct_change": 0.1488,
+      "close": 7742.25,
+      "pct_change": 0.0291,
       "direction": "BUY",
       "score": 5,
       "total": 9,
@@ -104,7 +104,7 @@
       "sell_count": 1,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-20T00:00:00+02:00",
+      "bar_time": "2026-08-20T02:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -162,12 +162,12 @@
       "close": 29467.0996,
       "pct_change": 0.0716,
       "direction": "SELL",
-      "score": 5,
+      "score": 4,
       "total": 9,
-      "buy_count": 2,
-      "sell_count": 5,
-      "tier": "MODERATE",
-      "tier_emoji": "🟠",
+      "buy_count": 3,
+      "sell_count": 4,
+      "tier": "WEAK",
+      "tier_emoji": "🟡",
       "bar_time": "2026-08-19T20:30:00+02:00",
       "abstained": [],
       "votes": [
@@ -214,7 +214,7 @@
         {
           "key": "smart_money",
           "label": "Smart Money Flow",
-          "vote": -1
+          "vote": 1
         }
       ]
     },
@@ -223,8 +223,8 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29649.5,
-      "pct_change": 0.2994,
+      "close": 29669.75,
+      "pct_change": 0.1392,
       "direction": "BUY",
       "score": 5,
       "total": 9,
@@ -232,7 +232,7 @@
       "sell_count": 1,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-20T00:00:00+02:00",
+      "bar_time": "2026-08-20T02:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -287,8 +287,8 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.48,
-      "pct_change": 0.0948,
+      "close": 84.6,
+      "pct_change": 0.3559,
       "direction": "BUY",
       "score": 4,
       "total": 9,
@@ -296,7 +296,7 @@
       "sell_count": 2,
       "tier": "WEAK",
       "tier_emoji": "🟡",
-      "bar_time": "2026-08-20T00:00:00+02:00",
+      "bar_time": "2026-08-20T02:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -351,8 +351,8 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4575.8999,
-      "pct_change": -0.1048,
+      "close": 4561.8999,
+      "pct_change": -0.1598,
       "direction": "BUY",
       "score": 7,
       "total": 9,
@@ -360,7 +360,7 @@
       "sell_count": 1,
       "tier": "STRONG",
       "tier_emoji": "🔴",
-      "bar_time": "2026-08-20T00:00:00+02:00",
+      "bar_time": "2026-08-20T02:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -412,8 +412,58 @@
     }
   ],
   "failures": [],
-  "yields": null,
-  "pressure": null,
+  "yields": {
+    "name": "US 10-year Treasury yield",
+    "ticker": "^TNX",
+    "level": 4.653,
+    "change_bp": -5.3,
+    "change_5d_bp": -2.9,
+    "change_20d_bp": -0.4,
+    "sigma_mult": 1.34,
+    "direction": "FALLING",
+    "asof": "2026-08-19T00:00:00"
+  },
+  "pressure": {
+    "value": -0.592,
+    "level": "NORMAL",
+    "emoji": "🟢",
+    "percentile": 16.2,
+    "change_1d": -0.341,
+    "change_5d": -0.445,
+    "components": [
+      {
+        "label": "Gasoline futures",
+        "change": -13.529,
+        "z": -1.233,
+        "units": "%"
+      },
+      {
+        "label": "VIX",
+        "change": -20.161,
+        "z": -0.917,
+        "units": "%"
+      },
+      {
+        "label": "S&P 500",
+        "change": 3.556,
+        "z": -0.58,
+        "units": "%"
+      },
+      {
+        "label": "10y Treasury yield",
+        "change": 0.025,
+        "z": -0.123,
+        "units": "pp"
+      },
+      {
+        "label": "WTI crude",
+        "change": -0.306,
+        "z": -0.108,
+        "units": "%"
+      }
+    ],
+    "missing": []
+  },
   "events": {
     "macro": [
       {
@@ -432,9 +482,34 @@
     "earnings": [],
     "headlines": [
       {
-        "when": "20 Aug 01:08",
+        "when": "20 Aug 03:19",
         "source": "Investor's Business Daily",
-        "title": "Dow Jones Futures: S&P 500, Nasdaq Rise On Treasury Move; Moderna, Merck Spur Big Biopharma Gains"
+        "title": "Dow Jones Futures: S&P 500, Nasdaq Rise As Moderna, Merck, Gold Shine But Not These Techs"
+      },
+      {
+        "when": "20 Aug 03:13",
+        "source": "Reuters",
+        "title": "Oil prices steady as investors assess US-Iran war outlook"
+      },
+      {
+        "when": "20 Aug 03:13",
+        "source": "Proactive",
+        "title": "Dart Mining to acquire 865km² Yamarna gold project as $2 million placement funds exploration"
+      },
+      {
+        "when": "20 Aug 01:36",
+        "source": "Proactive",
+        "title": "Titan Minerals unveils new shear-hosted gold discovery at Dynasty in Ecuador"
+      },
+      {
+        "when": "20 Aug 01:24",
+        "source": "Proactive",
+        "title": "Small Cap Watch: Lindian advances Kangankunde, Titan hits high-grade gold-silver and Emyria removes bottlenecks"
+      },
+      {
+        "when": "20 Aug 01:15",
+        "source": "Stocktwits",
+        "title": "US Stock Index Futures Climb As Yields Cool Off Amid Treasury Support — NVDA, MRNA, MRVL, LOWE In Focus"
       },
       {
         "when": "20 Aug 01:01",
@@ -445,31 +520,6 @@
         "when": "20 Aug 00:35",
         "source": "24/7 Wall St.",
         "title": "Oil Is Up 36% and the Strait of Hormuz Is Still Closed. The QQQI Family Runs a 14.75% Energy Fund"
-      },
-      {
-        "when": "20 Aug 00:25",
-        "source": "24/7 Wall St.",
-        "title": "NEOS’s ‘Boosted’ S&P Fund Pays 17% While the Nasdaq Version Pays 21%"
-      },
-      {
-        "when": "20 Aug 00:23",
-        "source": "Zacks",
-        "title": "Tech & Energy Fuel S&P 500 Growth Engine"
-      },
-      {
-        "when": "19 Aug 23:54",
-        "source": "GuruFocus.com",
-        "title": "Exxon Stock Rises as Oil Nears $92 on Hormuz Risk"
-      },
-      {
-        "when": "19 Aug 23:45",
-        "source": "Motley Fool",
-        "title": "Stock Market Today, Aug. 19: Stocks Edge Higher, Ending 3-Day Losing Streak"
-      },
-      {
-        "when": "19 Aug 23:00",
-        "source": "Oilprice.com",
-        "title": "SLB Prepares to Restart 15 Oil Rigs in Venezuela"
       }
     ],
     "anomalies": [
