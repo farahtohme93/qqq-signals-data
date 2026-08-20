@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-08-20T03:05:41.846616+00:00",
+  "generated_at": "2026-08-20T04:46:18.395850+00:00",
   "timezone": "Europe/Berlin",
   "interval": "1h",
   "tiers": [
@@ -95,16 +95,16 @@
       "ticker": "ES=F",
       "group": "SPX",
       "kind": "futures",
-      "close": 7738.75,
-      "pct_change": -0.0452,
+      "close": 7740.5,
+      "pct_change": 0.0355,
       "direction": "BUY",
-      "score": 5,
+      "score": 4,
       "total": 9,
-      "buy_count": 5,
-      "sell_count": 1,
-      "tier": "MODERATE",
-      "tier_emoji": "🟠",
-      "bar_time": "2026-08-20T03:00:00+02:00",
+      "buy_count": 4,
+      "sell_count": 2,
+      "tier": "WEAK",
+      "tier_emoji": "🟡",
+      "bar_time": "2026-08-20T05:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -130,7 +130,7 @@
         {
           "key": "accum_dist",
           "label": "Accum/Dist",
-          "vote": 1
+          "vote": -1
         },
         {
           "key": "ema_cross",
@@ -223,8 +223,8 @@
       "ticker": "NQ=F",
       "group": "US100",
       "kind": "futures",
-      "close": 29642.25,
-      "pct_change": -0.0927,
+      "close": 29640.5,
+      "pct_change": 0.0346,
       "direction": "BUY",
       "score": 5,
       "total": 9,
@@ -232,7 +232,7 @@
       "sell_count": 1,
       "tier": "MODERATE",
       "tier_emoji": "🟠",
-      "bar_time": "2026-08-20T03:00:00+02:00",
+      "bar_time": "2026-08-20T05:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -287,16 +287,16 @@
       "ticker": "CL=F",
       "group": "OIL",
       "kind": "futures",
-      "close": 84.79,
-      "pct_change": 0.2246,
+      "close": 84.43,
+      "pct_change": -0.0118,
       "direction": "BUY",
-      "score": 5,
+      "score": 4,
       "total": 9,
-      "buy_count": 5,
-      "sell_count": 2,
-      "tier": "MODERATE",
-      "tier_emoji": "🟠",
-      "bar_time": "2026-08-20T03:00:00+02:00",
+      "buy_count": 4,
+      "sell_count": 3,
+      "tier": "WEAK",
+      "tier_emoji": "🟡",
+      "bar_time": "2026-08-20T05:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -307,7 +307,7 @@
         {
           "key": "rsi_trend",
           "label": "RSI trend",
-          "vote": 1
+          "vote": -1
         },
         {
           "key": "rsi_bars",
@@ -351,16 +351,16 @@
       "ticker": "GC=F",
       "group": "GOLD",
       "kind": "futures",
-      "close": 4547.3999,
-      "pct_change": -0.3179,
+      "close": 4549.8999,
+      "pct_change": 0.0396,
       "direction": "BUY",
-      "score": 7,
+      "score": 6,
       "total": 9,
-      "buy_count": 7,
-      "sell_count": 0,
-      "tier": "STRONG",
-      "tier_emoji": "🔴",
-      "bar_time": "2026-08-20T03:00:00+02:00",
+      "buy_count": 6,
+      "sell_count": 1,
+      "tier": "MODERATE",
+      "tier_emoji": "🟠",
+      "bar_time": "2026-08-20T05:00:00+02:00",
       "abstained": [],
       "votes": [
         {
@@ -396,7 +396,7 @@
         {
           "key": "macd",
           "label": "MACD",
-          "vote": 1
+          "vote": -1
         },
         {
           "key": "bollinger",
@@ -432,7 +432,7 @@
     "earnings": [],
     "headlines": [
       {
-        "when": "20 Aug 04:44",
+        "when": "20 Aug 05:12",
         "source": "Investor's Business Daily",
         "title": "Dow Jones Futures: S&P 500, Nasdaq Rise As Moderna, Merck, Gold Shine But Not These Techs"
       },
